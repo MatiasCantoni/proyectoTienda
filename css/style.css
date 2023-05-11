@@ -1,0 +1,921 @@
+body {
+  background-color: #5d432c;
+}
+#logo {
+  background-color: #967c61;
+  height: max-content;
+  padding: 0px 130px;
+  margin-bottom: -13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0;
+  height: 155px;
+}
+.imagen-logo {
+  width: 160px;
+  height: 226px;
+}
+.buscador {
+  box-shadow: 0px 4px 6px rgb(0, 0, 0);
+  background: #f7f6f6;
+  color: #000000;
+  border-radius: 57px 57px 57px;
+  width: 586px;
+  height: 70px;
+  font-family: "Carme";
+  font-size: 20px;
+  border: #000000;
+  padding: 0 15px;
+  margin-right: 80px;
+}
+
+#linksPrincipales {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-family: "Cormorant", sans-serif;
+  text-decoration: none;
+}
+
+.hombre{
+  width: 140px ;
+  height: 28px ;
+  padding: 0px 10px 0px 10px;
+  background: #cbab7f;
+  border-color: #232323;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px 3px 3px;
+  text-align: center;
+  margin-left: 500px;
+  font-size: large;
+  color: #232323 !important;
+}
+a {
+  text-decoration: none;
+}
+
+.mujer {
+  width: 156px;
+  height: 28px;
+  padding: 0px 10px 0px 10px;
+  background: #cbab7f;
+  color: #000000;
+  border-color: #232323;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: large;
+}
+
+.ubicacion {
+  width: 156px;
+  height: 28px;
+  padding: 0px 10px 0px 10px;
+  background: #cbab7f;
+  color: #000000;
+  border-color: #232323;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px 3px 3px;
+  text-align: center;
+  font-size: large;
+}
+
+.banner {
+  display: block;
+  margin: auto;
+}
+.banner {
+  display: table;
+  justify-content: center;
+}
+#inicio {
+  height: 1516px;
+}
+#bannerPrincipal {
+  display: flex;
+  justify-content: center;
+  background-image: url(../imagenes/fondo\ madera\ 2.jpg);
+  background-size: cover;
+}
+
+.banner-1 {
+  width: 1005px;
+  height: 392px;
+}
+
+#ofertas {
+  display: flex;
+  flex-direction: row;
+  font-family: "Cormorant", sans-serif;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #ffdfc1;
+  padding: 0 10px;
+  height: 359px;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+.prenda-oferta-1 {
+  list-style-type: none;
+  background-color: #fefce0;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+}
+.prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+.precio-tachado {
+  text-decoration: line-through;
+  padding: 0 18px;
+}
+.descripcion-1 {
+  font-size: 18px;
+  padding: 0 18px;
+  font-weight: bold;
+}
+.descripcion-2 {
+  font-size: 18px;
+  padding: 0 18px;
+  font-weight: bold;
+}
+#precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+.cuotas {
+  font-family: "carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+.cuotas-2 {
+  font-family: "carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+.prenda-oferta-2 {
+  list-style-type: none;
+  background-color: #fefce0;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  margin-left: 25px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+.prenda-oferta-3 {
+  list-style-type: none;
+  background-color: #fefce0;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  margin-left: 25px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+.foto-inicio {
+  width: 280px;
+  height: 359px;
+  opacity: 72%;
+  padding: 0 40px;
+  display: flex;
+}
+.texto-vertical {
+  width: 120px;
+  height: 313px;
+  color: #7a7a7a;
+  font-family: "Cormorant";
+  font-size: 30px;
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+#lanzamientos {
+  display: flex;
+  flex-direction: row;
+  font-family: "Cormorant", sans-serif;
+  background-color: #a55e3a;
+  padding: 0 10px;
+  height: 359px;
+  list-style-type: none;
+}
+.prenda-lanza-1 {
+  list-style-type: none;
+  background-color: #cda18b;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+.precio-2 {
+  padding: 0 18px;
+}
+.prenda-lanza-2 {
+  margin-left: 25px;
+  list-style-type: none;
+  background-color: #cda18b;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+.prenda-lanza-3 {
+  margin-left: 25px;
+  list-style-type: none;
+  background-color: #cda18b;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+.foto-inicio-2 {
+  width: 280px;
+  height: 359px;
+  opacity: 72%;
+  padding: 0 40px;
+  display: flex;
+}
+.ultimos-lanzamientos {
+  width: 320px;
+  height: 84px;
+  opacity: 86%;
+  color: #000000;
+  font-family: "Cormorant";
+  font-size: 28px;
+  text-align: center;
+  margin-right: -90px;
+  margin-left: -50px;
+  padding-top: 100px;
+}
+#bannerSecundario {
+  display: flex;
+  justify-content: center;
+  background-image: url(../imagenes/fondo\ 3.jpg);
+  background-size: cover;
+  margin-bottom: 1px;
+  margin-top: -10px;
+}
+footer {
+  background-color: #cbab7f;
+  height: 170px;
+  padding-top: 20px;
+  font-family: "carme";
+}
+
+#linksSecundarios {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.links-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes {
+  display: flex;
+}
+.face {
+  height: 35px;
+  width: 55px;
+}
+.ig {
+  height: 39px;
+  width: 35px;
+}
+.titulo-formulario {
+  text-decoration: underline;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.boton-formulario {
+  display: flex;
+  text-align: center;
+  padding-inline: 44.5%;
+  background: #ffb253;
+  border-color: #232323;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px 3px 3px 3px;
+}
+.relleno-formulario {
+  padding-inline: 5px;
+  border-radius: 3px 3px 3px 3px;
+  color: #606060;
+  border-color: #232323;
+  border-width: 1px;
+  border-style: solid;
+  height: 25px;
+  margin-top: 7px;
+}
+.faq {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+.nosotros {
+  text-decoration: none;
+  color: #000000;
+}
+#indumentariaHombre {
+  margin: 0;
+  font-family: "cormorant";
+}
+#sacarPunto {
+  list-style-type: none !important;
+  display: flex;
+  justify-content: space-between;
+}
+.col-8{
+  list-style-type: none;
+}
+.titulo-filtros {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  font-family: "cormorant";
+}
+.filtros {
+  background-color: #ffdfc1;
+  width: 300px;
+  height: 320px;
+}
+.check {
+  display: flex;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+
+.pantalones {
+  flex-direction: row;
+}
+.titulo-hombre {
+  color: #fff1d7;
+  text-decoration: underline;
+  padding-left: 100px;
+  margin-top: 50px;
+}
+
+#prendasIndu {
+  background-color: #ffdfc1;
+  width: 845px;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 25px;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.prenda-indu-1 {
+  list-style-type: none;
+  background-color: white;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+.boton-comprar {
+  margin-left: 90px;
+  height: 30px;
+  margin-top: 7px;
+  background-color: #ffb253;
+  font-family: "carme";
+}
+
+.ad-indumentaria {
+  width: 300px;
+  height: 522px;
+  margin-top: 150px;
+  margin-left: 0px;
+}
+.titulo-mujer {
+  color: #fff1d7;
+  text-decoration: underline;
+  padding-left: 120px;
+  margin-top: 50px;
+}
+#ubicacion {
+  height: 600px;
+}
+.mapa {
+  list-style-type: none;
+  margin-top: 60px;
+}
+#juntar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.sacarDeco {
+  list-style-type: none;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.titulo-donde {
+  text-decoration: underline;
+  color: #ffb253;
+  text-align: center;
+  font-family: "comorant";
+}
+.texto-donde {
+  font-family: "comorant";
+  text-align: center;
+  color: #ffd783;
+  line-height: 30px;
+  font-size: large;
+}
+.titulo-horario {
+  text-decoration: underline;
+  color: #ffb253;
+  text-align: center;
+  font-family: "comorant";
+}
+.texto-horario {
+  font-family: "comorant";
+  text-align: center;
+  color: #ffd783;
+  line-height: 50px;
+  font-size: large;
+}
+#faq {
+  height: 500px;
+}
+.titulo-faq {
+  color: #ffb253;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 80px;
+  font-family: "comorant";
+}
+#sacarLinea{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.preg {
+  background: #fff1d7;
+  height: 50px;
+  list-style-type: none;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "carme";
+}
+
+.preg-2 {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.preg-3 {
+  margin-top: 100px;
+  margin-right: 150px;
+}
+.preg-4 {
+  margin-top: 80px;
+  margin-left: 400px;
+  border-radius: 15px 15px 15px 15px;
+}
+#nosotrosMain {
+  height: 1300px;
+}
+.titulo-nosotros {
+  text-align: center;
+  font-size: 36px;
+  text-decoration: underline;
+  font-family: "cormorant";
+  color: white;
+  margin-top: 50px;
+}
+.img-arriba {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.texto-nosotros {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #fff1d7;
+  border-color: #ffdfc1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 44px 44px 44px 44px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  padding: 8px 8px 8px 8px;
+  margin-inline: 250px;
+  font-size: 20px;
+  font-family: "roboto slab";
+}
+.img-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+#compra {
+  height: 800px;
+}
+.principal-compra {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+.img-compra {
+  list-style-type: none;
+  background-color: white;
+}
+.titulo-compra {
+  width: 378px;
+  height: 51px;
+  color: #ffffff;
+  font-family: "Cormorant";
+  font-weight: 400;
+  font-size: 36px;
+  text-decoration: underline;
+  margin-bottom: -30px;
+  margin-top: 0px;
+}
+.precio-compra {
+  width: 94px;
+  height: 45px;
+  color: #ffffff;
+  font-family: "Cormorant";
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.cuotas-compra {
+  width: 274px;
+  height: 23px;
+  color: #ffffff;
+  font-family: "carme";
+  font-weight:lighter;
+  font-size: 12px;
+  margin: 5px;
+}
+.linea-compra {
+  color: white;
+  font-family: "carme";
+}
+.talle-compra {
+  width: 94px;
+  height: 34px;
+  color: #ffffff;
+  font-family: "Cormorant";
+  font-size: larger;
+  text-align: center;
+  margin-left: 135px;
+}
+.check-compra {
+  display: flex;
+  justify-content: space-evenly;
+}
+.check-1 {
+  color: white;
+}
+.boton {
+  margin-top: 50px;
+  width: 137px;
+  height: 52px;
+  padding: 0px 10px 0px 10px;
+  background: #ffb253;
+  color: #000000;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px 3px 3px 3px;
+  margin-left: 120px;
+}
+.texto-descripcion {
+  width: 447px;
+  height: 307px;
+  color: #ffffff;
+  font-family: "roboto slab";
+  margin-bottom: -30px;
+  margin-top: -20px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: -14px;
+}
+.linea-desc {
+  color: #ffb253;
+
+  margin-left: -100px;
+}
+.texto-arriba {
+  margin-left: 230px;
+}
+.bg-acor-inside{
+  background-color: lightgray;
+}
+.bg{
+  background-color: #967c61;
+}
+.decoracion{
+  margin-left:38px ;
+}
+
+
+/* Formato para mobile */
+@media (max-width: 375px) {
+  #logo {
+    width: 68vh;
+    height: 15%;
+    justify-content: left;
+    background-color: #967c61;
+    padding: 0px 20px;
+    align-items: center;
+  }
+  #inicio {
+    height: 600px;
+  }
+  .buscador {
+    border-radius: 57px 57px 57px;
+    width: 150px;
+    height: 36px;
+    font-family: "Carme";
+    font-size: small;
+    padding: 0 15px;
+    margin-right: 0;
+    margin-left: 15%;
+  }
+  .imagen-logo {
+    width: 76px;
+    height: 106px;
+  }
+  .hombre {
+    width: 45px;
+    height: 17px;
+    padding: 0px;
+    margin-left: 25%;
+    font-size: 10px;
+  }
+  .mujer {
+    width: 45px;
+    height: 17px;
+    padding: 0px;
+    font-size: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .ubicacion {
+    width: 50px;
+    height: 17px;
+    padding: 0px;
+    font-size: 10px;
+  }
+  .banner-1 {
+    width: 315px;
+    height: 131px;
+  }
+  #bannerPrincipal {
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagenes/fondo\ madera\ 2.jpg);
+    background-size: cover;
+    width: 68vh;
+  }
+  #ofertas {
+    height: 160px;
+    width: 68vh;
+  }
+  .prenda-oferta-1 {
+    height: 120px;
+    width: 78px;
+  }
+  .prenda-tamaño {
+    width: 78px;
+    height: 54px;
+    margin-top: -8px;
+  }
+  .prenda-tamaño-blanco {
+    margin-top: -8px;
+  }
+  .precio-tachado {
+    text-decoration: line-through;
+    padding: 0 10px;
+  }
+  .descripcion-1 {
+    font-size: 7px;
+    padding: 0 10px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  #precio {
+    display: flex;
+    font-family: "Carme";
+    font-size: 7px;
+  }
+  .cuotas {
+    font-family: "carme";
+    font-size: 6px;
+    margin-top: -20px;
+    padding: 6px 0px 0px 5px;
+  }
+  .prenda-oferta-2 {
+    height: 120px;
+    width: 78px;
+  }
+  .prenda-oferta-3 {
+    height: 120px;
+    width: 78px;
+  }
+  .foto-inicio {
+    display: none;
+    padding: 0 0;
+  }
+  .texto-vertical {
+    width: 38px;
+    height: 105px;
+    font-family: "Cormorant";
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 47%;
+    margin-left: 25%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+  #lanzamientos {
+    height: 160px;
+    width: 68vh;
+  }
+  .precio-2 {
+    margin-left: -10px;
+  }
+  .foto-inicio-2 {
+    display: none;
+  }
+  .prenda-lanza-1 {
+    height: 120px;
+    width: 78px;
+  }
+  .prenda-lanza-2 {
+    height: 120px;
+    width: 78px;
+  }
+  .prenda-lanza-3 {
+    height: 120px;
+    width: 78px;
+  }
+  .ultimos-lanzamientos {
+    width: 101px;
+    height: 29px;
+    opacity: 100%;
+    font-size: 12px;
+    margin-right: 0;
+    margin-left: -20px;
+    padding-top: 120px;
+  }
+  #bannerSecundario {
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagenes/fondo\ 3.jpg);
+    background-size: cover;
+    margin-bottom: 1px;
+    margin-top: -10px;
+    width: 68vh;
+  }
+  footer {
+    height: 100px;
+    padding-right: 10px;
+    width: 68vh;
+  }
+  .face {
+    height: 16px;
+    width: 26px;
+  }
+  .ig {
+    height: 18px;
+    width: 14px;
+  }
+  .titulo-formulario {
+    font-size: 11px;
+    height: auto;
+    width: auto;
+    margin-top: -10%;
+  }
+  .relleno-formulario {
+    padding-inline: 0px;
+    height: 15px;
+    margin-left: 10%;
+    width: 120px;
+    font-size: small;
+  }
+  .boton-formulario {
+    padding-inline: 26%;
+    margin-left: 6%;
+    margin-top: 5px;
+  }
+  .faq {
+    font-size: small;
+  }
+  .nosotros {
+    font-size: small;
+  }
+  .titulo-hombre {
+    padding: 0;
+    margin-left: 8%;
+    font-size: 10px;
+  }
+  .filtros {
+    width: 90px;
+    height: 96px;
+    margin-left: -30px;
+  }
+  .titulo-filtros {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+  .check {
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    font-size: 8px;
+  }
+  input[type=checkbox] {
+    transform: scale(0.6);
+  }
+  #prendasIndu {
+    width: 230px;
+    height: 550px;
+    padding-top: 5px;
+  }
+  .prenda-indu-1 {
+    height: 105px;
+    width: 92px;
+  }
+  .descripcion-2 br{
+    display: none;
+  }
+  .descripcion-2{
+    font-size: 7px;
+    padding: 0 10px;
+    margin-top: 5px;
+  }
+  .cuotas-2 {
+    font-size: 6px;
+    margin-top: -10px !important;
+    padding: 0 3px;
+  }
+  .ad-indumentaria {
+    width: 89px;
+    height: 158px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .boton-comprar {
+    margin-left: 0px;
+    height: 15px;
+    margin-top: 0px; 
+  }
+  #prendasIndu .precio-tachado{
+    padding: 0 2px;
+    font-size: 5px;
+    font-weight: bold;
+  }
+  #prendasIndu .precio-2{
+    padding: 0 15px 0 15px;
+  }
+  .prenda-indu-1{
+  margin-right: 0;
+  margin-bottom: 5px;
+  }
+  .mx-2{
+    margin-left: 0 !important;
+  }
+}

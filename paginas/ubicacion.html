@@ -1,0 +1,125 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ubicacion</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      width="150px"
+      height="200px"
+      rel="shortcut icon"
+      href="imagenes/logo sin fondo.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carme&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="mx-2">
+    <header class="mt-2">
+      <div id="logo">
+        <a href="../index.html">
+          <img
+            class="imagen-logo"
+            width="150px"
+            height="200px"
+            src="../imagenes/logo sin fondo.png"
+            alt=""
+        /></a>
+
+        <input
+          class="buscador"
+          type="search"
+          name="Buscador"
+          placeholder="Buscar"
+          id=""
+        />
+      </div>
+
+      <ul id="linksPrincipales">
+        <li class="hombre mt-3 efectos">
+          <a class="text-black" href="./Indumen-hombre.html">Hombre</a>
+        </li>
+
+        <li class="mujer mt-3"><a class="text-black" href="./indumen-mujer.html">Mujer</a></li>
+
+        <li class="ubicacion mt-3"><a class="text-black" href="./ubicacion.html">Ubicación</a></li>
+      </ul>
+    </header>
+    <main id="ubicacion">
+      <section>
+        <ul id="juntar">
+          <li class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0814767695797!2d-58.475743797622684!3d-34.62738126089872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9926f90b67b%3A0x9baabe7bb0186bc!2sAv.%20Avellaneda%203200%2C%20C1406FZQ%20CABA!5e0!3m2!1sen!2sar!4v1681603915169!5m2!1sen!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </li>
+          <li class="sacarDeco">
+            <h2 class="titulo-donde">¿DONDE ENCONTRARNOS?</h2>
+            <p class="texto-donde">
+              Podes encontrarnos en la Avenida Avellaneda al 3200. En el Barrio
+              de Flores, entre las calles Borrego y Milito.
+            </p>
+            <h2 class="titulo-horario">HORARIOS</h2>
+            <p class="texto-horario">
+              Lunes a Viernes: 8hs a 12hs - 13hs a 22hs <br />
+              Sábado: 8hs a 13hs <br />
+              Domingo: Cerrado
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <ul id="linksSecundarios">
+          <li>
+            <a class="links-footer nosotros" href="./sobre-nosotros.html"
+              >Nosotros</a
+            >
+            <a class="links-footer faq" href="./faq.html"
+              >Preguntas Frecuentes</a
+            >
+          </li>
+          <li>
+            <h2 class="titulo-formulario">ENTERATE DE LAS NOVEDADES</h2>
+            <input
+              class="relleno-formulario"
+              type="text"
+              placeholder="Nombre y Apellido"
+            />
+            <input
+              class="relleno-formulario"
+              type="text"
+              placeholder="Ingrese se E-Mail"
+            />
+            <input class="boton-formulario" type="button" value="Enviar" />
+          </li>
+          <li class="redes">
+            <img class="face" src="../imagenes/facebook.png" alt="" />
+            <img class="ig" src="../imagenes/instagram.png" alt="" />
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
