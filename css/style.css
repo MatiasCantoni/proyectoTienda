@@ -125,7 +125,7 @@ a {
   height: 359px;
   list-style-type: none;
   margin-bottom: 5px;
-  width: 100%;
+  width: 68vh;
 }
 .prenda-oferta-1 {
   list-style-type: none;
@@ -661,7 +661,7 @@ footer {
 /* Formato para mobile */
 @media (max-width: 375px) {
   #logo {
-    width: 100%;
+    width: 68vh;
     height: 15%;
     justify-content: left;
     background-color: #967c61;
@@ -669,7 +669,7 @@ footer {
     align-items: center;
   }
   #inicio {
-    height: 600px;
+    height: auto;
   }
   .buscador {
     border-radius: 57px 57px 57px;
@@ -719,11 +719,11 @@ footer {
     justify-content: center;
     background-image: url(../imagenes/fondo\ madera\ 2.jpg);
     background-size: cover;
-    width: 100%;
+    width: 68vh;
   }
   #ofertas {
     height: 160px;
-    width: 100%;
+    width: 68vh;
   }
   .prenda-oferta-1 {
     height: 120px;
@@ -784,7 +784,7 @@ footer {
   }
   #lanzamientos {
     height: 160px;
-    width: 100%;
+    width: 68vh;
   }
   .precio-2 {
     margin-left: -10px;
@@ -820,12 +820,12 @@ footer {
     background-size: cover;
     margin-bottom: 1px;
     margin-top: -10px;
-    width: 100%;
+    width: 68vh;
   }
   footer {
     height: 100px;
     padding-right: 10px;
-    width: 100%;
+    width: 68vh;
   }
   .face {
     height: 16px;
