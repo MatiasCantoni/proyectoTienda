@@ -435,7 +435,9 @@ footer {
 }
 .mapa {
   list-style-type: none;
-  margin-top: 60px;
+  margin-top: 30px;
+  width:600px;
+  height:450px;
 }
 #juntar {
   display: flex;
@@ -940,6 +942,21 @@ footer {
   }
   .mx-2{
     margin-left: 0 !important;
+  }
+  #juntar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+  }
+  .mapa{  
+    width: auto !important;
+    height: 200px !important;
+    margin-top: 0;
+  }
+  .sacardeco{
+    margin: 25px 0 0 0;
   }
 }
  @media (max-width: 1296px) {
