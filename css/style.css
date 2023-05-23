@@ -673,13 +673,16 @@ footer {
   }
   .buscador {
     border-radius: 57px 57px 57px;
-    width: 150px;
+    width: auto;
     height: 36px;
     font-family: "Carme";
     font-size: small;
     padding: 0 15px;
     margin-right: 0;
-    margin-left: 15%;
+    margin-left: 20%;
+  }
+  #linksPrincipales{
+    justify-content: center;
   }
   .imagen-logo {
     width: 76px;
@@ -689,7 +692,7 @@ footer {
     width: 45px;
     height: 17px;
     padding: 0px;
-    margin-left: 25%;
+    margin-left: 20%;
     font-size: 10px;
   }
   .mujer {
@@ -866,6 +869,11 @@ footer {
     margin-left: 8%;
     font-size: 10px;
   }
+  .titulo-mujer {
+    padding: 0;
+    margin-left: 8%;
+    font-size: 10px;
+  }
   .filtros {
     width: 90px;
     height: 96px;
@@ -886,7 +894,7 @@ footer {
     transform: scale(0.6);
   }
   #prendasIndu {
-    width: 230px;
+    width: auto;
     height: 550px;
     padding-top: 5px;
   }
