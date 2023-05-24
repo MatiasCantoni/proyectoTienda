@@ -531,6 +531,23 @@ footer {
   justify-content: space-between;
   margin-top: 70px;
 }
+.nosotros-img-1{
+  height:319px;
+  width:212px;
+}
+.nosotros-img-2{
+  height:326px;
+  width:217px;
+}
+.nosotros-img-3{
+  height:319px;
+  width:216px;
+}
+.nosotros-img-4{
+  height:319px;
+  width:300px;
+  margin-right: 15px;
+}
 .texto-nosotros {
   display: flex;
   justify-content: center;
@@ -553,6 +570,14 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
+}
+.nosotros-img-5{
+  width: 451px;
+  height: 301px;
+}
+.nosotros-img-6{
+  width: 451px;
+  height: 301px;
 }
 #compra {
   height: 800px;
@@ -958,8 +983,60 @@ footer {
   .sacardeco{
     margin: 25px 0 0 0;
   }
+  #nosotrosMain {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-arriba {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 50px 0 0 0;
+    padding: 0;
+  }
+  .nosotros-img-1{
+    height: 164px;
+    width: 98px;
+  }
+  .nosotros-img-2{
+    height: 166px;
+    width: 129px;
+    margin: 0 10px;
+  }
+  .nosotros-img-3{
+    height: 166px;
+    width: 113px;
+  }
+  .nosotros-img-4{
+    display: none;
+  }
+  .texto-nosotros {
+    padding: 8px 8px 8px 8px;
+    margin-inline: 0;
+    font-size: smaller;
+    width: 90%;
+    align-self: center;
+    margin: 10px 0;
+  }
+  .texto-nosotros br{
+    display: none;
+  }
+  .nosotros-img-5{
+    width: 150px;
+    height: 137px;
+  }
+  .nosotros-img-6{
+    width: 179px;
+    height: 137px;
+  }
+  .img-2{
+    padding: 0;
+  }
+  
 }
- @media (max-width: 1296px) {
+ /* @media (max-width: 1296px) {
   .foto-inicio-2{
   width: 230px;
   height: 359px;
@@ -1042,4 +1119,4 @@ footer {
       margin-left: -80px;
       position: sticky ;
     }
-  }
+  } */
