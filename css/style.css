@@ -642,6 +642,10 @@ footer {
 .check-1 {
   color: white;
 }
+.prenda-compra{
+  height: 380px;
+  width: 555px;
+}
 .boton {
   margin-top: 50px;
   width: 137px;
@@ -1034,7 +1038,119 @@ footer {
   .img-2{
     padding: 0;
   }
-  
+  .accordion-body{
+    font-size: small;
+  }
+  #faq{
+    height: auto;
+  }
+  .titulo-faq{
+    margin-top: 30px;
+  }
+  #compra{
+    height: auto;
+  }
+  .prenda-compra{
+    height: 216px;
+    width: 349px;
+  }
+  .img-compra{
+    width: 189px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+  }
+  .titulo-compra {
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-family: "Cormorant";
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: -30px;
+    margin: 0px 0px -30 0;
+  }
+  .precio-compra {
+    width: 94px;
+    height: 45px;
+    color: #ffffff;
+    font-family: "Cormorant";
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .cuotas-compra {
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-family: "carme";
+    font-weight: lighter;
+    font-size: 8px;
+    margin: 5px;
+  }
+  .linea-compra {
+    display: none;
+  }
+  .talle-compra {
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-family: "Cormorant";
+    font-size: medium;
+    text-align: center;
+    margin: 32px 0 14px;
+  }
+  .check-compra {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+  }
+  .boton {
+    margin-top: 50px;
+    width: 137px;
+    height: 52px;
+    padding: 0px 10px 0px 10px;
+    background: #ffb253;
+    color: #000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    margin: 10px 0 0px 7px;
+  }
+  .check-compra {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .linea-desc{
+    display: none;
+  }
+  .texto-arriba {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .texto-descripcion {
+    margin-left: 0;
+    width: 329px;
+    height: auto;
+    color: #ffffff;
+    font-family: "roboto slab";
+    margin-bottom: 15px;
+    margin-top: auto;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 0;
+    border-top-style: dashed;
+    border-color: #ffb253;
+    border-bottom-style: dashed;
+  }
+  .texto-descripcion br{
+    display: ;
+  }
+
+
 }
  /* @media (max-width: 1296px) {
   .foto-inicio-2{
