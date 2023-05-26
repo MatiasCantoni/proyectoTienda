@@ -147,6 +147,122 @@ body {
   background-color: #5d432c;
 }
 
+#compra {
+  height: 800px;
+}
+#compra .principal-compra {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+#compra .principal-compra .img-compra {
+  list-style-type: none;
+  background-color: white;
+}
+#compra .principal-compra .img-compra .prenda-compra {
+  height: 380px;
+  width: 555px;
+}
+#compra .principal-compra .titulo-compra {
+  width: 378px;
+  height: 51px;
+  color: #ffffff;
+  font-family: "Cormorant", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-decoration: underline;
+  margin-bottom: -30px;
+  margin-top: 0px;
+}
+#compra .principal-compra .precio-compra {
+  width: 94px;
+  height: 45px;
+  color: #ffffff;
+  font-family: "Cormorant", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+#compra .principal-compra .cuotas-compra {
+  width: 274px;
+  height: 23px;
+  color: #ffffff;
+  font-family: "Carme";
+  font-weight: lighter;
+  font-size: 12px;
+  margin: 5px;
+}
+#compra .principal-compra .linea-compra {
+  color: white;
+  font-family: "Carme";
+}
+#compra .principal-compra .talle-compra {
+  width: 94px;
+  height: 34px;
+  color: #ffffff;
+  font-family: "Cormorant", sans-serif;
+  font-size: larger;
+  text-align: center;
+  margin-left: 135px;
+}
+#compra .principal-compra .check-compra {
+  display: flex;
+  justify-content: space-evenly;
+}
+#compra .principal-compra .check-compra .check-1 {
+  color: white;
+}
+#compra .principal-compra .boton {
+  margin-top: 50px;
+  width: 137px;
+  height: 52px;
+  padding: 0px 10px 0px 10px;
+  background: #ffb253;
+  color: #000000;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px 3px 3px 3px;
+  margin-left: 120px;
+}
+#compra .texto-arriba {
+  margin-left: 230px;
+}
+#compra .texto-arriba .linea-desc {
+  color: #ffb253;
+  margin-left: -100px;
+}
+#compra .texto-arriba .texto-descripcion {
+  width: 447px;
+  height: 307px;
+  color: #ffffff;
+  font-family: "roboto slab";
+  margin-bottom: -30px;
+  margin-top: -20px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: -14px;
+}
+
+#faq {
+  height: 500px;
+}
+#faq .titulo-faq {
+  color: #ffb253;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Cormorant", sans-serif;
+}
+#faq .bg-acor-inside {
+  background-color: lightgray;
+}
+#faq .bg-acor-inside .bg {
+  background-color: #967c61;
+}
+
 #inicio {
   height: 1516px;
 }
@@ -218,7 +334,7 @@ body {
   text-decoration: line-through;
   padding: 0 18px;
 }
-#inicio #ofertas .prenda-oferta-1 #precio .cuotas {
+#inicio #ofertas .prenda-oferta-1 .cuotas {
   font-family: "Carme";
   font-size: 14px;
   margin-top: -10px;
@@ -246,15 +362,15 @@ body {
 }
 #inicio #ofertas .prenda-oferta-2 #precio {
   display: flex;
-  font-family: "Carme";
+  font-family: "Carme" !important;
   font-size: 16px;
 }
 #inicio #ofertas .prenda-oferta-2 #precio .precio-tachado {
   text-decoration: line-through;
   padding: 0 18px;
 }
-#inicio #ofertas .prenda-oferta-2 #precio .cuotas {
-  font-family: "Carme";
+#inicio #ofertas .prenda-oferta-2 .cuotas {
+  font-family: "Carme" !important;
   font-size: 14px;
   margin-top: -10px;
   padding: 0 18px;
@@ -288,7 +404,7 @@ body {
   text-decoration: line-through;
   padding: 0 18px;
 }
-#inicio #ofertas .prenda-oferta-3 #precio .cuotas {
+#inicio #ofertas .prenda-oferta-3 .cuotas {
   font-family: "Carme";
   font-size: 14px;
   margin-top: -10px;
@@ -636,6 +752,73 @@ body {
   padding: 0 18px;
 }
 
+#nosotrosMain {
+  height: 1300px;
+}
+#nosotrosMain .titulo-nosotros {
+  text-align: center;
+  font-size: 36px;
+  text-decoration: underline;
+  font-family: "Cormorant", sans-serif;
+  color: white;
+  margin-top: 50px;
+}
+#nosotrosMain .img-arriba {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+#nosotrosMain .img-arriba .nosotros-img-1 {
+  height: 319px;
+  width: 212px;
+}
+#nosotrosMain .img-arriba .nosotros-img-2 {
+  height: 326px;
+  width: 217px;
+}
+#nosotrosMain .img-arriba .nosotros-img-3 {
+  height: 319px;
+  width: 216px;
+}
+#nosotrosMain .img-arriba .nosotros-img-4 {
+  height: 319px;
+  width: 300px;
+  margin-right: 15px;
+}
+#nosotrosMain .texto-nosotros {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #fff1d7;
+  border-color: #ffdfc1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 44px 44px 44px 44px;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  padding: 8px 8px 8px 8px;
+  margin-inline: 250px;
+  font-size: 20px;
+  font-family: "roboto slab";
+}
+#nosotrosMain .img-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+#nosotrosMain .img-2 .nosotros-img-5 {
+  width: 451px;
+  height: 301px;
+}
+#nosotrosMain .img-2 .nosotros-img-6 {
+  width: 451px;
+  height: 301px;
+}
+
 #ubicacion {
   height: 600px;
 }
@@ -643,6 +826,9 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+}
+#ubicacion #juntar li {
+  list-style-type: none;
 }
 #ubicacion #juntar li .mapa {
   list-style-type: none;
@@ -680,310 +866,6 @@ body {
   color: #ffd783;
   line-height: 50px;
   font-size: large;
-}
-
-.cuotas {
-  font-family: "Carme";
-  font-size: 14px;
-  margin-top: -10px;
-  padding: 0 18px;
-}
-
-.cuotas-2 {
-  font-family: "Carme";
-  font-size: 14px;
-  margin-top: -10px;
-  padding: 0 18px;
-}
-
-.foto-inicio {
-  width: 280px;
-  height: 359px;
-  opacity: 72%;
-  padding: 0 40px;
-  display: flex;
-}
-
-.precio-2 {
-  padding: 0 18px;
-}
-
-.foto-inicio-2 {
-  width: 280px;
-  height: 359px;
-  opacity: 72%;
-  padding: 0 40px;
-  display: flex;
-}
-
-.nosotros {
-  text-decoration: none;
-  color: #000000;
-}
-
-.pantalones {
-  flex-direction: row;
-}
-
-.titulo-horario {
-  text-decoration: underline;
-  color: #ffb253;
-  text-align: center;
-  font-family: "Cormorant", sans-serif;
-}
-
-.texto-horario {
-  font-family: "Cormorant", sans-serif;
-  text-align: center;
-  color: #ffd783;
-  line-height: 50px;
-  font-size: large;
-}
-
-#faq {
-  height: 500px;
-}
-
-.titulo-faq {
-  color: #ffb253;
-  text-decoration: underline;
-  text-align: center;
-  margin-top: 80px;
-  font-family: "Cormorant", sans-serif;
-}
-
-#sacarLinea {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.preg {
-  background: #fff1d7;
-  height: 50px;
-  list-style-type: none;
-  margin-top: 50px;
-  text-align: center;
-  font-family: "Carme";
-}
-
-.preg-2 {
-  margin-top: 100px;
-  margin-left: 80px;
-}
-
-.preg-3 {
-  margin-top: 100px;
-  margin-right: 150px;
-}
-
-.preg-4 {
-  margin-top: 80px;
-  margin-left: 400px;
-  border-radius: 15px 15px 15px 15px;
-}
-
-#nosotrosMain {
-  height: 1300px;
-}
-
-.titulo-nosotros {
-  text-align: center;
-  font-size: 36px;
-  text-decoration: underline;
-  font-family: "Cormorant", sans-serif;
-  color: white;
-  margin-top: 50px;
-}
-
-.img-arriba {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: space-between;
-  margin-top: 70px;
-}
-
-.nosotros-img-1 {
-  height: 319px;
-  width: 212px;
-}
-
-.nosotros-img-2 {
-  height: 326px;
-  width: 217px;
-}
-
-.nosotros-img-3 {
-  height: 319px;
-  width: 216px;
-}
-
-.nosotros-img-4 {
-  height: 319px;
-  width: 300px;
-  margin-right: 15px;
-}
-
-.texto-nosotros {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background: #fff1d7;
-  border-color: #ffdfc1;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 44px 44px 44px 44px;
-  border-color: #000000;
-  border-width: 2px;
-  border-style: solid;
-  padding: 8px 8px 8px 8px;
-  margin-inline: 250px;
-  font-size: 20px;
-  font-family: "roboto slab";
-}
-
-.img-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
-.nosotros-img-5 {
-  width: 451px;
-  height: 301px;
-}
-
-.nosotros-img-6 {
-  width: 451px;
-  height: 301px;
-}
-
-#compra {
-  height: 800px;
-}
-
-.principal-compra {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: space-evenly;
-  margin-top: 90px;
-}
-
-.img-compra {
-  list-style-type: none;
-  background-color: white;
-}
-
-.titulo-compra {
-  width: 378px;
-  height: 51px;
-  color: #ffffff;
-  font-family: "Cormorant", sans-serif;
-  font-weight: 400;
-  font-size: 36px;
-  text-decoration: underline;
-  margin-bottom: -30px;
-  margin-top: 0px;
-}
-
-.precio-compra {
-  width: 94px;
-  height: 45px;
-  color: #ffffff;
-  font-family: "Cormorant", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  margin-bottom: 25px;
-}
-
-.cuotas-compra {
-  width: 274px;
-  height: 23px;
-  color: #ffffff;
-  font-family: "Carme";
-  font-weight: lighter;
-  font-size: 12px;
-  margin: 5px;
-}
-
-.linea-compra {
-  color: white;
-  font-family: "Carme";
-}
-
-.talle-compra {
-  width: 94px;
-  height: 34px;
-  color: #ffffff;
-  font-family: "Cormorant", sans-serif;
-  font-size: larger;
-  text-align: center;
-  margin-left: 135px;
-}
-
-.check-compra {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.check-1 {
-  color: white;
-}
-
-.prenda-compra {
-  height: 380px;
-  width: 555px;
-}
-
-.boton {
-  margin-top: 50px;
-  width: 137px;
-  height: 52px;
-  padding: 0px 10px 0px 10px;
-  background: #ffb253;
-  color: #000000;
-  border-color: #000000;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 3px 3px 3px 3px;
-  margin-left: 120px;
-}
-
-.texto-descripcion {
-  width: 447px;
-  height: 307px;
-  color: #ffffff;
-  font-family: "roboto slab";
-  margin-bottom: -30px;
-  margin-top: -20px;
-  text-align: center;
-  font-size: 16px;
-  margin-left: -14px;
-}
-
-.linea-desc {
-  color: #ffb253;
-  margin-left: -100px;
-}
-
-.texto-arriba {
-  margin-left: 230px;
-}
-
-.bg-acor-inside {
-  background-color: lightgray;
-}
-
-.bg {
-  background-color: #967c61;
-}
-
-.decoracion {
-  margin-left: 38px;
 }
 
 /* Formato para mobile */

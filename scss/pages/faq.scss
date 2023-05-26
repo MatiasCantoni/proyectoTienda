@@ -1,0 +1,16 @@
+#faq {
+	height: 500px;
+	.titulo-faq {
+		color: $color_6;
+		text-decoration: underline;
+		text-align: center;
+		margin-top: 80px;
+		font-family: $font-family_2;
+	}
+	.bg-acor-inside {
+		background-color: $background-color_10;
+		.bg {
+			background-color: $background-color_2;
+		}
+	}
+}

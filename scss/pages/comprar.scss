@@ -1,0 +1,98 @@
+#compra {
+	height: 800px;
+	.principal-compra {
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		justify-content: space-evenly;
+		margin-top: 90px;
+		.img-compra {
+			list-style-type: none;
+			background-color: $background-color_8;
+			.prenda-compra {
+				height: 380px;
+				width: 555px;
+			}
+		}
+		.titulo-compra {
+			width: 378px;
+			height: 51px;
+			color: $color_9;
+			font-family: $font-family_2;
+			font-weight: 400;
+			font-size: 36px;
+			text-decoration: underline;
+			margin-bottom: -30px;
+			margin-top: 0px;
+		}
+		.precio-compra {
+			width: 94px;
+			height: 45px;
+			color: $color_9;
+			font-family: $font-family_2;
+			font-weight: 400;
+			font-size: 40px;
+			margin-bottom: 25px;
+		}
+		.cuotas-compra {
+			width: 274px;
+			height: 23px;
+			color: $color_9;
+			font-family: $font-family_1;
+			font-weight: lighter;
+			font-size: 12px;
+			margin: 5px;
+		}
+		.linea-compra {
+			color: $color_8;
+			font-family: $font-family_1;
+		}
+		.talle-compra {
+			width: 94px;
+			height: 34px;
+			color: $color_9;
+			font-family: $font-family_2;
+			font-size: larger;
+			text-align: center;
+			margin-left: 135px;
+		}
+		.check-compra {
+			display: flex;
+			justify-content: space-evenly;
+			.check-1 {
+				color: $color_8;
+			}
+		}
+		.boton {
+			margin-top: 50px;
+			width: 137px;
+			height: 52px;
+			padding: 0px 10px 0px 10px;
+			background: #ffb253;
+			color: $color_1;
+			border-color: $border-color_2;
+			border-width: 1px;
+			border-style: solid;
+			border-radius: 3px 3px 3px 3px;
+			margin-left: 120px;
+		}
+	}
+	.texto-arriba {
+		margin-left: 230px;
+		.linea-desc {
+			color: $color_6;
+			margin-left: -100px;
+		}
+		.texto-descripcion {
+			width: 447px;
+			height: 307px;
+			color: $color_9;
+			font-family: $font-family_3;
+			margin-bottom: -30px;
+			margin-top: -20px;
+			text-align: center;
+			font-size: 16px;
+			margin-left: -14px;
+		}
+	}
+}
