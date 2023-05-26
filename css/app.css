@@ -1,4 +1,66 @@
 @charset "UTF-8";
+footer {
+  background-color: #cbab7f;
+  height: 170px;
+  padding-top: 20px;
+  font-family: "Carme";
+}
+footer #linksSecundarios {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer #linksSecundarios .links-footer {
+  display: flex;
+  flex-direction: column;
+}
+footer #linksSecundarios .nosotros {
+  text-decoration: none;
+  color: #000000;
+}
+footer #linksSecundarios .faq {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+footer #linksSecundarios .redes {
+  display: flex;
+}
+footer #linksSecundarios .redes .face {
+  height: 35px;
+  width: 55px;
+}
+footer #linksSecundarios .redes .ig {
+  height: 39px;
+  width: 35px;
+}
+footer #linksSecundarios .titulo-formulario {
+  text-decoration: underline;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+footer #linksSecundarios .boton-formulario {
+  display: flex;
+  text-align: center;
+  padding-inline: 44.5%;
+  background: #ffb253;
+  border-color: #232323;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px 3px 3px 3px;
+}
+footer #linksSecundarios .relleno-formulario {
+  padding-inline: 5px;
+  border-radius: 3px 3px 3px 3px;
+  color: #606060;
+  border-color: #232323;
+  border-width: 1px;
+  border-style: solid;
+  height: 25px;
+  margin-top: 7px;
+}
+
 header #logo {
   background-color: #967c61;
   height: max-content;
@@ -52,9 +114,6 @@ header #linksPrincipales .hombre {
   font-size: large;
   color: #232323 !important;
 }
-header #linksPrincipales .hombre a {
-  text-decoration: none;
-}
 header #linksPrincipales .mujer {
   width: 156px;
   height: 28px;
@@ -70,9 +129,6 @@ header #linksPrincipales .mujer {
   margin-right: 25px;
   font-size: large;
 }
-header #linksPrincipales .mujer a {
-  text-decoration: none;
-}
 header #linksPrincipales .ubicacion {
   width: 156px;
   height: 28px;
@@ -85,126 +141,26 @@ header #linksPrincipales .ubicacion {
   border-radius: 3px 3px 3px;
   text-align: center;
   font-size: large;
-}
-header #linksPrincipales .ubicacion a {
-  text-decoration: none;
 }
 
 body {
   background-color: #5d432c;
 }
 
-header #logo {
-  background-color: #967c61;
-  height: max-content;
-  padding: 0px 130px;
-  margin-bottom: -13px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 0;
-  height: 155px;
-  width: 100%;
-}
-header #logo a {
-  text-decoration: none;
-}
-header #logo .imagen-logo {
-  width: 160px;
-  height: 226px;
-}
-header #logo .buscador {
-  box-shadow: 0px 4px 6px rgb(0, 0, 0);
-  background: #f7f6f6;
-  color: #000000;
-  border-radius: 57px 57px 57px;
-  width: 586px;
-  height: 70px;
-  font-family: "Carme";
-  font-size: 20px;
-  border: #000000;
-  padding: 0 15px;
-  margin-right: 80px;
-}
-header #linksPrincipales {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  font-family: "Cormorant", sans-serif;
-  text-decoration: none;
-}
-header #linksPrincipales .hombre {
-  width: 140px;
-  height: 28px;
-  padding: 0px 10px 0px 10px;
-  background: #cbab7f;
-  border-color: #232323;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 3px 3px 3px;
-  text-align: center;
-  margin-left: 500px;
-  font-size: large;
-  color: #232323 !important;
-}
-header #linksPrincipales .mujer {
-  width: 156px;
-  height: 28px;
-  padding: 0px 10px 0px 10px;
-  background: #cbab7f;
-  color: #000000;
-  border-color: #232323;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 3px 3px 3px 3px;
-  text-align: center;
-  margin-left: 25px;
-  margin-right: 25px;
-  font-size: large;
-}
-header #linksPrincipales .ubicacion {
-  width: 156px;
-  height: 28px;
-  padding: 0px 10px 0px 10px;
-  background: #cbab7f;
-  color: #000000;
-  border-color: #232323;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 3px 3px 3px;
-  text-align: center;
-  font-size: large;
-}
-
-.banner {
-  display: block;
-  margin: auto;
-  display: table;
-  justify-content: center;
-}
-
 #inicio {
   height: 1516px;
 }
-
-#bannerPrincipal {
+#inicio #bannerPrincipal {
   display: flex;
   justify-content: center;
   background-image: url(../imagenes/fondo\ madera\ 2.jpg);
   background-size: cover;
 }
-
-.banner-1 {
+#inicio #bannerPrincipal .banner-1 {
   width: 100%;
   height: 392px;
 }
-
-.banner-2 {
-  width: 1005px;
-  height: 393px;
-}
-
-#ofertas {
+#inicio #ofertas {
   display: flex;
   flex-direction: row;
   font-family: "Cormorant", sans-serif;
@@ -217,8 +173,24 @@ header #linksPrincipales .ubicacion {
   margin-bottom: 5px;
   width: 100%;
 }
-
-.prenda-oferta-1 {
+#inicio #ofertas .foto-inicio {
+  width: 280px;
+  height: 359px;
+  opacity: 72%;
+  padding: 0 40px;
+  display: flex;
+}
+#inicio #ofertas .texto-vertical {
+  width: 120px;
+  height: 313px;
+  color: #7a7a7a;
+  font-family: "Cormorant", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+#inicio #ofertas .prenda-oferta-1 {
   list-style-type: none;
   background-color: #fefce0;
   border-color: #000000;
@@ -228,33 +200,110 @@ header #linksPrincipales .ubicacion {
   height: 305px;
   width: 265px;
 }
-
-.prenda-tamaño {
-  width: 257px;
-  height: 159px;
-}
-
-.precio-tachado {
-  text-decoration: line-through;
-  padding: 0 18px;
-}
-
-.descripcion-1 {
+#inicio #ofertas .prenda-oferta-1 .descripcion-1 {
   font-size: 18px;
   padding: 0 18px;
   font-weight: bold;
+}
+#inicio #ofertas .prenda-oferta-1 .prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+#inicio #ofertas .prenda-oferta-1 #precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+#inicio #ofertas .prenda-oferta-1 #precio .precio-tachado {
+  text-decoration: line-through;
+  padding: 0 18px;
+}
+#inicio #ofertas .prenda-oferta-1 #precio .cuotas {
+  font-family: "Carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+#inicio #ofertas .prenda-oferta-2 {
+  list-style-type: none;
+  background-color: #fefce0;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  margin-left: 25px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+#inicio #ofertas .prenda-oferta-2 .descripcion-1 {
+  font-size: 18px;
+  padding: 0 18px;
+  font-weight: bold;
+}
+#inicio #ofertas .prenda-oferta-2 .prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+#inicio #ofertas .prenda-oferta-2 #precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+#inicio #ofertas .prenda-oferta-2 #precio .precio-tachado {
+  text-decoration: line-through;
+  padding: 0 18px;
+}
+#inicio #ofertas .prenda-oferta-2 #precio .cuotas {
+  font-family: "Carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+#inicio #ofertas .prenda-oferta-3 {
+  list-style-type: none;
+  background-color: #fefce0;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  margin-left: 25px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+#inicio #ofertas .prenda-oferta-3 .descripcion-1 {
+  font-size: 18px;
+  padding: 0 18px;
+  font-weight: bold;
+}
+#inicio #ofertas .prenda-oferta-3 .prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+#inicio #ofertas .prenda-oferta-3 #precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+#inicio #ofertas .prenda-oferta-3 #precio .precio-tachado {
+  text-decoration: line-through;
+  padding: 0 18px;
+}
+#inicio #ofertas .prenda-oferta-3 #precio .cuotas {
+  font-family: "Carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+
+.banner-2 {
+  width: 1005px;
+  height: 393px;
 }
 
 .descripcion-2 {
   font-size: 18px;
   padding: 0 18px;
   font-weight: bold;
-}
-
-#precio {
-  display: flex;
-  font-family: "Carme";
-  font-size: 16px;
 }
 
 .cuotas {
@@ -269,18 +318,6 @@ header #linksPrincipales .ubicacion {
   font-size: 14px;
   margin-top: -10px;
   padding: 0 18px;
-}
-
-.prenda-oferta-2 {
-  list-style-type: none;
-  background-color: #fefce0;
-  flex-direction: row;
-  height: 305px;
-  width: 265px;
-  margin-left: 25px;
-  border-color: #000000;
-  border-width: 1px;
-  border-style: solid;
 }
 
 .prenda-oferta-3 {
@@ -393,73 +430,6 @@ header #linksPrincipales .ubicacion {
   margin-bottom: 1px;
   margin-top: -10px;
   width: 100%;
-}
-
-footer {
-  background-color: #cbab7f;
-  height: 170px;
-  padding-top: 20px;
-  font-family: "Carme";
-}
-
-#linksSecundarios {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.links-footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.redes {
-  display: flex;
-}
-
-.face {
-  height: 35px;
-  width: 55px;
-}
-
-.ig {
-  height: 39px;
-  width: 35px;
-}
-
-.titulo-formulario {
-  text-decoration: underline;
-  margin-bottom: 0px;
-  font-size: 25px;
-}
-
-.boton-formulario {
-  display: flex;
-  text-align: center;
-  padding-inline: 44.5%;
-  background: #ffb253;
-  border-color: #232323;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 3px 3px 3px 3px;
-}
-
-.relleno-formulario {
-  padding-inline: 5px;
-  border-radius: 3px 3px 3px 3px;
-  color: #606060;
-  border-color: #232323;
-  border-width: 1px;
-  border-style: solid;
-  height: 25px;
-  margin-top: 7px;
-}
-
-.faq {
-  margin-top: 20px;
-  text-decoration: none;
-  color: #000000;
 }
 
 .nosotros {

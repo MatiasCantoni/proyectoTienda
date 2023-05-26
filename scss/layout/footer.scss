@@ -1,0 +1,61 @@
+footer {
+	background-color: $background-color_7;
+	height: 170px;
+	padding-top: 20px;
+	font-family: $font-family_1;
+	#linksSecundarios {
+		list-style-type: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		.links-footer {
+			display: flex;
+			flex-direction: column;
+		}
+		.nosotros {
+			text-decoration: none;
+			color: $color_1;
+		}
+		.faq {
+			margin-top: 20px;
+			text-decoration: none;
+			color: $color_1;
+		}
+		.redes {
+			display: flex;
+			.face {
+				height: 35px;
+				width: 55px;
+			}
+			.ig {
+				height: 39px;
+				width: 35px;
+			}
+		}
+		.titulo-formulario {
+			text-decoration: underline;
+			margin-bottom: 0px;
+			font-size: 25px;
+		}
+		.boton-formulario {
+			display: flex;
+			text-align: center;
+			padding-inline: 44.5%;
+			background: #ffb253;
+			border-color: $border-color_1;
+			border-width: 1px;
+			border-style: solid;
+			border-radius: 3px 3px 3px 3px;
+		}
+		.relleno-formulario {
+			padding-inline: 5px;
+			border-radius: 3px 3px 3px 3px;
+			color: $color_4;
+			border-color: $border-color_1;
+			border-width: 1px;
+			border-style: solid;
+			height: 25px;
+			margin-top: 7px;
+		}
+	}
+}
