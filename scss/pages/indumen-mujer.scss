@@ -1,0 +1,98 @@
+#indumentariaHombre {
+	margin: 0;
+	font-family: $font-family_2;
+	.titulo-mujer {
+        color: $color_5;
+        text-decoration: underline;
+        padding-left: 120px;
+        margin-top: 50px;
+    }
+	.col-4{
+		#sacarPunto {
+			list-style-type: none !important;
+			display: flex;
+			justify-content: space-between;
+			.filtros {
+				background-color: $background-color_3;
+				width: 300px;
+				height: 320px;
+				.titulo-filtros {
+					text-decoration: underline;
+					text-align: center;
+					margin-bottom: 30px;
+					padding-top: 10px;
+					font-family: $font-family_2;
+				}
+				.check {
+					display: flex;
+					padding-left: 25px;
+					padding-bottom: 15px;
+				}
+				.ad-indumentaria {
+					width: 300px;
+					height: 522px;
+					margin-top: 150px;
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+	.col-8 {
+		list-style-type: none;
+		#prendasIndu {
+			background-color: $background-color_3;
+			width: 845px;
+			height: 1000px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			padding-top: 25px;
+			flex-wrap: wrap;
+			margin: 0;
+			margin-bottom: 10px;
+			.prenda-indu-1 {
+				list-style-type: none;
+				background-color: $background-color_8;
+				flex-direction: row;
+				height: 305px;
+				width: 265px;
+				border-color: $border-color_2;
+				border-width: 1px;
+				border-style: solid;
+				.descripcion-2 {
+					font-size: 18px;
+					padding: 0 18px;
+					font-weight: bold;
+				}
+				.prenda-tamaño {
+					width: 257px;
+					height: 159px;
+				}
+				#precio {
+					display: flex;
+					font-family: $font-family_1;
+					font-size: 16px;
+					.precio-2 {
+						padding: 0 18px;
+					}
+					.boton-comprar {
+						margin-left: 90px;
+						height: 30px;
+						margin-top: 7px;
+						background-color: $background-color_9;
+						font-family: $font-family_1;
+					}
+                    .decoracion {
+                        margin-left: 38px !important;
+                    }
+					.cuotas-2 {
+						font-family: $font-family_1;
+						font-size: 14px;
+						margin-top: -10px;
+						padding: 0 18px;
+					}
+				}
+			}
+		}
+	}
+}

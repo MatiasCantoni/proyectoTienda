@@ -1,0 +1,290 @@
+#inicio {
+	height: 1516px;
+	#bannerPrincipal {
+		display: flex;
+		justify-content: center;
+		background-image: url(../imagenes/fondo\ madera\ 2.jpg);
+		background-size: cover;
+		.banner-1 {
+			width: 100%;
+			height: 392px;
+		}
+	}
+	#ofertas {
+		display: flex;
+		flex-direction: row;
+		font-family: $font-family_2;
+		justify-content: flex-end;
+		align-items: flex-end;
+		background-color: $background-color_3;
+		padding: 0 10px;
+		height: 359px;
+		list-style-type: none;
+		margin-bottom: 5px;
+		width: 100%;
+		.foto-inicio {
+			width: 280px;
+			height: 359px;
+			opacity: 72%;
+			padding: 0 40px;
+			display: flex;
+		}
+		.texto-vertical {
+			width: 120px;
+			height: 313px;
+			color: $color_3;
+			font-family: $font-family_2;
+			font-size: 30px;
+			text-align: center;
+			writing-mode: vertical-lr;
+			text-orientation: upright;
+		}
+		.prenda-oferta-1 {
+			list-style-type: none;
+			background-color: $background-color_4;
+			border-color: $border-color_2;
+			border-width: 1px;
+			border-style: solid;
+			flex-direction: row;
+			height: 305px;
+			width: 265px;
+			.descripcion-1 {
+				font-size: 18px;
+				padding: 0 18px;
+				font-weight: bold;
+			}
+			.prenda-tamaño {
+				width: 257px;
+				height: 159px;
+			}
+			#precio {
+				display: flex;
+				font-family: $font-family_1;
+				font-size: 16px;
+				.precio-tachado {
+					text-decoration: line-through;
+					padding: 0 18px;
+				}
+				.cuotas {
+					font-family: $font-family_1;
+					font-size: 14px;
+					margin-top: -10px;
+					padding: 0 18px;
+				}
+			}
+		}
+		.prenda-oferta-2 {
+			list-style-type: none;
+			background-color: $background-color_4;
+			flex-direction: row;
+			height: 305px;
+			width: 265px;
+			margin-left: 25px;
+			border-color: $border-color_2;
+			border-width: 1px;
+			border-style: solid;
+			.descripcion-1 {
+				font-size: 18px;
+				padding: 0 18px;
+				font-weight: bold;
+			}
+			.prenda-tamaño {
+				width: 257px;
+				height: 159px;
+			}
+			#precio {
+				display: flex;
+				font-family: $font-family_1;
+				font-size: 16px;
+				.precio-tachado {
+					text-decoration: line-through;
+					padding: 0 18px;
+				}
+				.cuotas {
+					font-family: $font-family_1;
+					font-size: 14px;
+					margin-top: -10px;
+					padding: 0 18px;
+				}
+			}
+		}
+		.prenda-oferta-3 {
+			list-style-type: none;
+			background-color: $background-color_4;
+			flex-direction: row;
+			height: 305px;
+			width: 265px;
+			margin-left: 25px;
+			border-color: $border-color_2;
+			border-width: 1px;
+			border-style: solid;
+			.descripcion-1 {
+				font-size: 18px;
+				padding: 0 18px;
+				font-weight: bold;
+			}
+			.prenda-tamaño {
+				width: 257px;
+				height: 159px;
+			}
+			#precio {
+				display: flex;
+				font-family: $font-family_1;
+				font-size: 16px;
+				.precio-tachado {
+					text-decoration: line-through;
+					padding: 0 18px;
+				}
+				.cuotas {
+					font-family: $font-family_1;
+					font-size: 14px;
+					margin-top: -10px;
+					padding: 0 18px;
+				}
+			}
+		}
+	}
+	#lanzamientos {
+		display: flex;
+		flex-direction: row;
+		font-family: $font-family_2;
+		background-color: $background-color_5;
+		padding: 0 10px;
+		height: 359px;
+		list-style-type: none;
+		width: 100%;
+		.prenda-lanza-1 {
+			list-style-type: none;
+			background-color: $background-color_6;
+			flex-direction: row;
+			height: 305px;
+			width: 265px;
+			border-color: $border-color_2;
+			border-width: 1px;
+			border-style: solid;
+			.descripcion-1 {
+				font-size: 18px;
+				padding: 0 18px;
+				font-weight: bold;
+			}
+			.prenda-tamaño {
+				width: 257px;
+				height: 159px;
+			}
+			#precio {
+				display: flex;
+				font-family: $font-family_1;
+				font-size: 16px;
+				.precio-2 {
+					padding: 0 18px;
+				}
+			}
+			.cuotas {
+				font-family: $font-family_1;
+				font-size: 14px;
+				margin-top: -10px;
+				padding: 0 18px;
+			}
+		}
+		.prenda-lanza-2 {
+			margin-left: 25px;
+			list-style-type: none;
+			background-color: $background-color_6;
+			flex-direction: row;
+			height: 305px;
+			width: 265px;
+			border-color: $border-color_2;
+			border-width: 1px;
+			border-style: solid;
+			.descripcion-1 {
+				font-size: 18px;
+				padding: 0 18px;
+				font-weight: bold;
+			}
+			.prenda-tamaño {
+				width: 257px;
+				height: 159px;
+			}
+			#precio {
+				display: flex;
+				font-family: $font-family_1;
+				font-size: 16px;
+				.precio-2 {
+					padding: 0 18px;
+				}
+			}
+			.cuotas {
+				font-family: $font-family_1;
+				font-size: 14px;
+				margin-top: -10px;
+				padding: 0 18px;
+			}	
+		}
+		.prenda-lanza-3 {
+			margin-left: 25px;
+			list-style-type: none;
+			background-color: $background-color_6;
+			flex-direction: row;
+			height: 305px;
+			width: 265px;
+			border-color: $border-color_2;
+			border-width: 1px;
+			border-style: solid;
+			.descripcion-1 {
+				font-size: 18px;
+				padding: 0 18px;
+				font-weight: bold;
+			}
+			.prenda-tamaño {
+				width: 257px;
+				height: 159px;
+			}
+			#precio {
+				display: flex;
+				font-family: $font-family_1;
+				font-size: 16px;
+				.precio-2 {
+					padding: 0 18px;
+				}
+			}
+			.cuotas {
+				font-family: $font-family_1;
+				font-size: 14px;
+				margin-top: -10px;
+				padding: 0 18px;
+			}
+		}
+		.ultimos-lanzamientos {
+			width: 320px;
+			height: 84px;
+			opacity: 86%;
+			color: $color_1;
+			font-family: $font-family_2;
+			font-size: 28px;
+			text-align: center;
+			margin-right: -90px;
+			margin-left: -50px;
+			padding-top: 100px;
+		}
+		.foto-inicio-2 {
+			width: 280px;
+			height: 359px;
+			opacity: 72%;
+			padding: 0 40px;
+			display: flex;
+		}
+	}
+	#bannerSecundario {
+		display: flex;
+		justify-content: center;
+		background-image: url(../imagenes/fondo\ 3.jpg);
+		background-size: cover;
+		margin-bottom: 1px;
+		margin-top: -10px;
+		width: 100%;
+		.banner-2 {
+			width: 1005px;
+			height: 393px;
+		}
+	}
+}

@@ -294,16 +294,392 @@ body {
   margin-top: -10px;
   padding: 0 18px;
 }
-
-.banner-2 {
+#inicio #lanzamientos {
+  display: flex;
+  flex-direction: row;
+  font-family: "Cormorant", sans-serif;
+  background-color: #a55e3a;
+  padding: 0 10px;
+  height: 359px;
+  list-style-type: none;
+  width: 100%;
+}
+#inicio #lanzamientos .prenda-lanza-1 {
+  list-style-type: none;
+  background-color: #cda18b;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+#inicio #lanzamientos .prenda-lanza-1 .descripcion-1 {
+  font-size: 18px;
+  padding: 0 18px;
+  font-weight: bold;
+}
+#inicio #lanzamientos .prenda-lanza-1 .prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+#inicio #lanzamientos .prenda-lanza-1 #precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+#inicio #lanzamientos .prenda-lanza-1 #precio .precio-2 {
+  padding: 0 18px;
+}
+#inicio #lanzamientos .prenda-lanza-1 .cuotas {
+  font-family: "Carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+#inicio #lanzamientos .prenda-lanza-2 {
+  margin-left: 25px;
+  list-style-type: none;
+  background-color: #cda18b;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+#inicio #lanzamientos .prenda-lanza-2 .descripcion-1 {
+  font-size: 18px;
+  padding: 0 18px;
+  font-weight: bold;
+}
+#inicio #lanzamientos .prenda-lanza-2 .prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+#inicio #lanzamientos .prenda-lanza-2 #precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+#inicio #lanzamientos .prenda-lanza-2 #precio .precio-2 {
+  padding: 0 18px;
+}
+#inicio #lanzamientos .prenda-lanza-2 .cuotas {
+  font-family: "Carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+#inicio #lanzamientos .prenda-lanza-3 {
+  margin-left: 25px;
+  list-style-type: none;
+  background-color: #cda18b;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+#inicio #lanzamientos .prenda-lanza-3 .descripcion-1 {
+  font-size: 18px;
+  padding: 0 18px;
+  font-weight: bold;
+}
+#inicio #lanzamientos .prenda-lanza-3 .prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+#inicio #lanzamientos .prenda-lanza-3 #precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+#inicio #lanzamientos .prenda-lanza-3 #precio .precio-2 {
+  padding: 0 18px;
+}
+#inicio #lanzamientos .prenda-lanza-3 .cuotas {
+  font-family: "Carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+#inicio #lanzamientos .ultimos-lanzamientos {
+  width: 320px;
+  height: 84px;
+  opacity: 86%;
+  color: #000000;
+  font-family: "Cormorant", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-right: -90px;
+  margin-left: -50px;
+  padding-top: 100px;
+}
+#inicio #lanzamientos .foto-inicio-2 {
+  width: 280px;
+  height: 359px;
+  opacity: 72%;
+  padding: 0 40px;
+  display: flex;
+}
+#inicio #bannerSecundario {
+  display: flex;
+  justify-content: center;
+  background-image: url(../imagenes/fondo\ 3.jpg);
+  background-size: cover;
+  margin-bottom: 1px;
+  margin-top: -10px;
+  width: 100%;
+}
+#inicio #bannerSecundario .banner-2 {
   width: 1005px;
   height: 393px;
 }
 
-.descripcion-2 {
+#indumentariaHombre {
+  margin: 0;
+  font-family: "Cormorant", sans-serif;
+}
+#indumentariaHombre .titulo-hombre {
+  color: #fff1d7;
+  text-decoration: underline;
+  padding-left: 100px;
+  margin-top: 50px;
+}
+#indumentariaHombre .col-4 #sacarPunto {
+  list-style-type: none !important;
+  display: flex;
+  justify-content: space-between;
+}
+#indumentariaHombre .col-4 #sacarPunto .filtros {
+  background-color: #ffdfc1;
+  width: 300px;
+  height: 320px;
+}
+#indumentariaHombre .col-4 #sacarPunto .filtros .titulo-filtros {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  font-family: "Cormorant", sans-serif;
+}
+#indumentariaHombre .col-4 #sacarPunto .filtros .check {
+  display: flex;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+#indumentariaHombre .col-4 #sacarPunto .filtros .ad-indumentaria {
+  width: 300px;
+  height: 522px;
+  margin-top: 150px;
+  margin-left: 0px;
+}
+#indumentariaHombre .col-8 {
+  list-style-type: none;
+}
+#indumentariaHombre .col-8 #prendasIndu {
+  background-color: #ffdfc1;
+  width: 845px;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 25px;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 10px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 {
+  list-style-type: none;
+  background-color: white;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 .descripcion-2 {
   font-size: 18px;
   padding: 0 18px;
   font-weight: bold;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 .prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .precio-2 {
+  padding: 0 18px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .boton-comprar {
+  margin-left: 90px;
+  height: 30px;
+  margin-top: 7px;
+  background-color: #ffb253;
+  font-family: "Carme";
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .decoracion {
+  margin-left: 38px !important;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .precio-tachado {
+  text-decoration: line-through;
+  padding: 0 18px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .cuotas-2 {
+  font-family: "Carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+
+#indumentariaHombre {
+  margin: 0;
+  font-family: "Cormorant", sans-serif;
+}
+#indumentariaHombre .titulo-mujer {
+  color: #fff1d7;
+  text-decoration: underline;
+  padding-left: 120px;
+  margin-top: 50px;
+}
+#indumentariaHombre .col-4 #sacarPunto {
+  list-style-type: none !important;
+  display: flex;
+  justify-content: space-between;
+}
+#indumentariaHombre .col-4 #sacarPunto .filtros {
+  background-color: #ffdfc1;
+  width: 300px;
+  height: 320px;
+}
+#indumentariaHombre .col-4 #sacarPunto .filtros .titulo-filtros {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  font-family: "Cormorant", sans-serif;
+}
+#indumentariaHombre .col-4 #sacarPunto .filtros .check {
+  display: flex;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+#indumentariaHombre .col-4 #sacarPunto .filtros .ad-indumentaria {
+  width: 300px;
+  height: 522px;
+  margin-top: 150px;
+  margin-left: 0px;
+}
+#indumentariaHombre .col-8 {
+  list-style-type: none;
+}
+#indumentariaHombre .col-8 #prendasIndu {
+  background-color: #ffdfc1;
+  width: 845px;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 25px;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 10px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 {
+  list-style-type: none;
+  background-color: white;
+  flex-direction: row;
+  height: 305px;
+  width: 265px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 .descripcion-2 {
+  font-size: 18px;
+  padding: 0 18px;
+  font-weight: bold;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 .prenda-tamaño {
+  width: 257px;
+  height: 159px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio {
+  display: flex;
+  font-family: "Carme";
+  font-size: 16px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .precio-2 {
+  padding: 0 18px;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .boton-comprar {
+  margin-left: 90px;
+  height: 30px;
+  margin-top: 7px;
+  background-color: #ffb253;
+  font-family: "Carme";
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .decoracion {
+  margin-left: 38px !important;
+}
+#indumentariaHombre .col-8 #prendasIndu .prenda-indu-1 #precio .cuotas-2 {
+  font-family: "Carme";
+  font-size: 14px;
+  margin-top: -10px;
+  padding: 0 18px;
+}
+
+#ubicacion {
+  height: 600px;
+}
+#ubicacion #juntar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+#ubicacion #juntar li .mapa {
+  list-style-type: none;
+  margin-top: 30px;
+  width: 600px;
+  height: 450px;
+}
+#ubicacion #juntar .sacarDeco {
+  list-style-type: none;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#ubicacion #juntar .sacarDeco .titulo-donde {
+  text-decoration: underline;
+  color: #ffb253;
+  text-align: center;
+  font-family: "Cormorant", sans-serif;
+}
+#ubicacion #juntar .sacarDeco .texto-donde {
+  font-family: "Cormorant", sans-serif;
+  text-align: center;
+  color: #ffd783;
+  line-height: 30px;
+  font-size: large;
+}
+#ubicacion #juntar .sacarDeco .titulo-horario {
+  text-decoration: underline;
+  color: #ffb253;
+  text-align: center;
+  font-family: "Cormorant", sans-serif;
+}
+#ubicacion #juntar .sacarDeco .texto-horario {
+  font-family: "Cormorant", sans-serif;
+  text-align: center;
+  color: #ffd783;
+  line-height: 50px;
+  font-size: large;
 }
 
 .cuotas {
@@ -320,18 +696,6 @@ body {
   padding: 0 18px;
 }
 
-.prenda-oferta-3 {
-  list-style-type: none;
-  background-color: #fefce0;
-  flex-direction: row;
-  height: 305px;
-  width: 265px;
-  margin-left: 25px;
-  border-color: #000000;
-  border-width: 1px;
-  border-style: solid;
-}
-
 .foto-inicio {
   width: 280px;
   height: 359px;
@@ -340,65 +704,8 @@ body {
   display: flex;
 }
 
-.texto-vertical {
-  width: 120px;
-  height: 313px;
-  color: #7a7a7a;
-  font-family: "Cormorant", sans-serif;
-  font-size: 30px;
-  text-align: center;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-}
-
-#lanzamientos {
-  display: flex;
-  flex-direction: row;
-  font-family: "Cormorant", sans-serif;
-  background-color: #a55e3a;
-  padding: 0 10px;
-  height: 359px;
-  list-style-type: none;
-  width: 100%;
-}
-
-.prenda-lanza-1 {
-  list-style-type: none;
-  background-color: #cda18b;
-  flex-direction: row;
-  height: 305px;
-  width: 265px;
-  border-color: #000000;
-  border-width: 1px;
-  border-style: solid;
-}
-
 .precio-2 {
   padding: 0 18px;
-}
-
-.prenda-lanza-2 {
-  margin-left: 25px;
-  list-style-type: none;
-  background-color: #cda18b;
-  flex-direction: row;
-  height: 305px;
-  width: 265px;
-  border-color: #000000;
-  border-width: 1px;
-  border-style: solid;
-}
-
-.prenda-lanza-3 {
-  margin-left: 25px;
-  list-style-type: none;
-  background-color: #cda18b;
-  flex-direction: row;
-  height: 305px;
-  width: 265px;
-  border-color: #000000;
-  border-width: 1px;
-  border-style: solid;
 }
 
 .foto-inicio-2 {
@@ -409,162 +716,13 @@ body {
   display: flex;
 }
 
-.ultimos-lanzamientos {
-  width: 320px;
-  height: 84px;
-  opacity: 86%;
-  color: #000000;
-  font-family: "Cormorant", sans-serif;
-  font-size: 28px;
-  text-align: center;
-  margin-right: -90px;
-  margin-left: -50px;
-  padding-top: 100px;
-}
-
-#bannerSecundario {
-  display: flex;
-  justify-content: center;
-  background-image: url(../imagenes/fondo\ 3.jpg);
-  background-size: cover;
-  margin-bottom: 1px;
-  margin-top: -10px;
-  width: 100%;
-}
-
 .nosotros {
   text-decoration: none;
   color: #000000;
 }
 
-#indumentariaHombre {
-  margin: 0;
-  font-family: "Cormorant", sans-serif;
-}
-
-#sacarPunto {
-  list-style-type: none !important;
-  display: flex;
-  justify-content: space-between;
-}
-
-.col-8 {
-  list-style-type: none;
-}
-
-.titulo-filtros {
-  text-decoration: underline;
-  text-align: center;
-  margin-bottom: 30px;
-  padding-top: 10px;
-  font-family: "Cormorant", sans-serif;
-}
-
-.filtros {
-  background-color: #ffdfc1;
-  width: 300px;
-  height: 320px;
-}
-
-.check {
-  display: flex;
-  padding-left: 25px;
-  padding-bottom: 15px;
-}
-
 .pantalones {
   flex-direction: row;
-}
-
-.titulo-hombre {
-  color: #fff1d7;
-  text-decoration: underline;
-  padding-left: 100px;
-  margin-top: 50px;
-}
-
-#prendasIndu {
-  background-color: #ffdfc1;
-  width: 845px;
-  height: 1000px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 25px;
-  flex-wrap: wrap;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.prenda-indu-1 {
-  list-style-type: none;
-  background-color: white;
-  flex-direction: row;
-  height: 305px;
-  width: 265px;
-  border-color: #000000;
-  border-width: 1px;
-  border-style: solid;
-}
-
-.boton-comprar {
-  margin-left: 90px;
-  height: 30px;
-  margin-top: 7px;
-  background-color: #ffb253;
-  font-family: "Carme";
-}
-
-.ad-indumentaria {
-  width: 300px;
-  height: 522px;
-  margin-top: 150px;
-  margin-left: 0px;
-}
-
-.titulo-mujer {
-  color: #fff1d7;
-  text-decoration: underline;
-  padding-left: 120px;
-  margin-top: 50px;
-}
-
-#ubicacion {
-  height: 600px;
-}
-
-.mapa {
-  list-style-type: none;
-  margin-top: 30px;
-  width: 600px;
-  height: 450px;
-}
-
-#juntar {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
-}
-
-.sacarDeco {
-  list-style-type: none;
-  margin-left: 50px;
-  margin-top: 50px;
-}
-
-.titulo-donde {
-  text-decoration: underline;
-  color: #ffb253;
-  text-align: center;
-  font-family: "Cormorant", sans-serif;
-}
-
-.texto-donde {
-  font-family: "Cormorant", sans-serif;
-  text-align: center;
-  color: #ffd783;
-  line-height: 30px;
-  font-size: large;
 }
 
 .titulo-horario {

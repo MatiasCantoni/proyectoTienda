@@ -1,0 +1,47 @@
+#ubicacion {
+	height: 600px;
+	#juntar {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 100px;
+		li{
+			.mapa {
+				list-style-type: none;
+				margin-top: 30px;
+				width: 600px;
+				height: 450px;
+			}
+		}
+		.sacarDeco {
+			list-style-type: none;
+			margin-left: 50px;
+			margin-top: 50px;
+			.titulo-donde {
+				text-decoration: underline;
+				color: $color_6;
+				text-align: center;
+				font-family: $font-family_2;
+			}
+			.texto-donde {
+				font-family: $font-family_2;
+				text-align: center;
+				color: $color_7;
+				line-height: 30px;
+				font-size: large;
+			}
+			.titulo-horario {
+				text-decoration: underline;
+				color: $color_6;
+				text-align: center;
+				font-family: $font-family_2;
+			}
+			.texto-horario {
+				font-family: $font-family_2;
+				text-align: center;
+				color: $color_7;
+				line-height: 50px;
+				font-size: large;
+			}
+		}
+	}
+}
