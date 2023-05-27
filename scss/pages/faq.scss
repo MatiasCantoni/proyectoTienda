@@ -1,11 +1,20 @@
 #faq {
 	height: 500px;
+	@include mediaquery-mobile(){
+		height: auto;
+		.accordion-body{
+			font-size: small;
+		}
+	}
 	.titulo-faq {
 		color: $color_6;
 		text-decoration: underline;
 		text-align: center;
 		margin-top: 80px;
 		font-family: $font-family_2;
+		@include mediaquery-mobile(){
+			margin-top: 30px;
+		}
 	}
 	.bg-acor-inside {
 		background-color: $background-color_10;

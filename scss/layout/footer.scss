@@ -3,6 +3,11 @@ footer {
 	height: 170px;
 	padding-top: 20px;
 	font-family: $font-family_1;
+	@include mediaquery-mobile(){
+		height: 100px;
+		padding-right: 10px;
+		width: 100%;
+	}
 	#linksSecundarios {
 		list-style-type: none;
 		display: flex;
@@ -15,27 +20,47 @@ footer {
 		.nosotros {
 			text-decoration: none;
 			color: $color_1;
+			@include mediaquery-mobile (){
+				font-size: small;
+			}
 		}
 		.faq {
 			margin-top: 20px;
 			text-decoration: none;
 			color: $color_1;
+			@include mediaquery-mobile (){
+				font-size: small;
+			}
 		}
 		.redes {
 			display: flex;
 			.face {
 				height: 35px;
 				width: 55px;
+				@include mediaquery-mobile(){
+					height: 16px;
+					width: 26px;
+				}
 			}
 			.ig {
 				height: 39px;
 				width: 35px;
+				@include mediaquery-mobile(){
+					height: 18px;
+					width: 14px;
+				}
 			}
 		}
 		.titulo-formulario {
 			text-decoration: underline;
 			margin-bottom: 0px;
 			font-size: 25px;
+			@include mediaquery-mobile(){
+				font-size: 11px;
+				height: auto;
+				width: auto;
+				margin-top: -5%;
+			}
 		}
 		.boton-formulario {
 			display: flex;
@@ -46,6 +71,11 @@ footer {
 			border-width: 1px;
 			border-style: solid;
 			border-radius: 3px 3px 3px 3px;
+			@include mediaquery-mobile(){
+				padding-inline: 26%;
+				margin-left: 6%;
+				margin-top: 5px;
+			}
 		}
 		.relleno-formulario {
 			padding-inline: 5px;
@@ -56,6 +86,13 @@ footer {
 			border-style: solid;
 			height: 25px;
 			margin-top: 7px;
+			@include mediaquery-mobile(){
+				padding-inline: 0px;
+				height: 15px;
+				margin-left: 10%;
+				width: 120px;
+				font-size: small;
+			}
 		}
 	}
 }

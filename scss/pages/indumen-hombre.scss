@@ -6,6 +6,11 @@
 		text-decoration: underline;
 		padding-left: 100px;
 		margin-top: 50px;
+		@include mediaquery-mobile(){
+			padding: 0;
+			margin-left: 8%;
+			font-size: 10px;
+		}
 	}
 	.col-4{
 		#sacarPunto {
@@ -16,23 +21,45 @@
 				background-color: $background-color_3;
 				width: 300px;
 				height: 320px;
+				@include mediaquery-mobile(){
+					width: 90px;
+					height: 96px;
+					margin-left: -30px;
+				}
 				.titulo-filtros {
 					text-decoration: underline;
 					text-align: center;
 					margin-bottom: 30px;
 					padding-top: 10px;
 					font-family: $font-family_2;
+					@include mediaquery-mobile(){
+						margin-bottom: 0px;
+						padding-top: 10px;
+						font-size: 10px;
+					}
 				}
 				.check {
 					display: flex;
 					padding-left: 25px;
 					padding-bottom: 15px;
+					@include mediaquery-mobile(){
+						display: flex;
+						padding-left: 15px;
+						padding-bottom: 0px;
+						font-size: 8px;
+					}
 				}
 				.ad-indumentaria {
 					width: 300px;
 					height: 522px;
 					margin-top: 150px;
 					margin-left: 0px;
+					@include mediaquery-mobile(){
+						width: 89px;
+						height: 158px;
+						margin-top: 15px;
+						margin-left: 0px;
+					}
 				}
 			}
 		}
@@ -50,6 +77,11 @@
 			flex-wrap: wrap;
 			margin: 0;
 			margin-bottom: 10px;
+			@include mediaquery-mobile(){
+				width: auto;
+				height: 550px;
+				padding-top: 5px;
+			}
 			.prenda-indu-1 {
 				list-style-type: none;
 				background-color: $background-color_8;
@@ -59,21 +91,48 @@
 				border-color: $border-color_2;
 				border-width: 1px;
 				border-style: solid;
+				@include mediaquery-mobile(){
+					margin-right: 0;
+					margin-bottom: 5px;
+					height: 105px;
+					width: 92px;
+				}
 				.descripcion-2 {
 					font-size: 18px;
 					padding: 0 18px;
 					font-weight: bold;
+					@include mediaquery-mobile(){
+						font-size: 7px;
+						padding: 0 10px;
+						margin-top: 5px;
+					}
+					br{
+						@include mediaquery-mobile(){
+							display: none;
+						}
+					}
 				}
 				.prenda-tamaño {
 					width: 257px;
 					height: 159px;
+					@include mediaquery-mobile(){
+						width: 78px;
+						height: 54px;
+						margin-top: -8px;
+					}
 				}
 				#precio {
 					display: flex;
 					font-family: $font-family_1;
 					font-size: 16px;
+					@include mediaquery-mobile(){
+						font-size: 7px;
+					}
 					.precio-2 {
 						padding: 0 18px;
+						@include mediaquery-mobile(){
+							padding: 0 15px 0 15px;
+						}
 					}
 					.boton-comprar {
 						margin-left: 90px;
@@ -81,6 +140,11 @@
 						margin-top: 7px;
 						background-color: $background-color_9;
 						font-family: $font-family_1;
+						@include mediaquery-mobile(){
+							margin-left: 0px;
+							height: 15px;
+							margin-top: 0px; 
+						}
 					}
                     .decoracion {
                         margin-left: 38px !important;
@@ -88,12 +152,22 @@
                     .precio-tachado {
                         text-decoration: line-through;
                         padding: 0 18px;
+						@include mediaquery-mobile(){
+							padding: 0 2px;
+							font-size: 5px;
+							font-weight: bold;
+						}
                     }
-					.cuotas-2 {
-						font-family: $font-family_1;
-						font-size: 14px;
-						margin-top: -10px;
-						padding: 0 18px;
+				}
+				.cuotas-2 {
+					font-family: $font-family_1;
+					font-size: 14px;
+					margin-top: -10px;
+					padding: 0 18px;
+					@include mediaquery-mobile(){
+						font-size: 6px;
+						margin-top: -10px !important;
+						padding: 0 3px;
 					}
 				}
 			}

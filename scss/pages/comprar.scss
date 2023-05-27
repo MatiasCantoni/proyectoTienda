@@ -1,5 +1,8 @@
 #compra {
 	height: 800px;
+	@include mediaquery-mobile(){
+		height: auto;
+	}
 	.principal-compra {
 		display: flex;
 		flex-direction: row;
@@ -9,9 +12,19 @@
 		.img-compra {
 			list-style-type: none;
 			background-color: $background-color_8;
+			@include mediaquery-mobile(){
+				width: 189px;
+				height: 230px;
+				display: flex;
+				justify-content: center;
+			}
 			.prenda-compra {
 				height: 380px;
 				width: 555px;
+				@include mediaquery-mobile(){
+					height: 216px;
+					width: 349px;
+				}
 			}
 		}
 		.titulo-compra {
@@ -24,6 +37,12 @@
 			text-decoration: underline;
 			margin-bottom: -30px;
 			margin-top: 0px;
+			@include mediaquery-mobile(){
+				width: auto;
+				height: auto;
+				font-size: 16px;
+				margin: 0px 0px -30 0;
+			}
 		}
 		.precio-compra {
 			width: 94px;
@@ -33,6 +52,15 @@
 			font-weight: 400;
 			font-size: 40px;
 			margin-bottom: 25px;
+			@include mediaquery-mobile(){
+				width: 94px;
+				height: 45px;
+				color: #ffffff;
+				font-family: "Cormorant";
+				font-weight: 400;
+				font-size: 32px;
+				margin-bottom: 25px;
+			}
 		}
 		.cuotas-compra {
 			width: 274px;
@@ -42,10 +70,22 @@
 			font-weight: lighter;
 			font-size: 12px;
 			margin: 5px;
+			@include mediaquery-mobile(){
+				width: auto;
+				height: auto;
+				color: #ffffff;
+				font-family: "carme";
+				font-weight: lighter;
+				font-size: 8px;
+				margin: 5px;
+			}
 		}
 		.linea-compra {
 			color: $color_8;
 			font-family: $font-family_1;
+			@include mediaquery-mobile(){
+				display: none;
+			}
 		}
 		.talle-compra {
 			width: 94px;
@@ -55,10 +95,24 @@
 			font-size: larger;
 			text-align: center;
 			margin-left: 135px;
+			@include mediaquery-mobile(){
+				width: auto;
+				height: auto;
+				color: #ffffff;
+				font-family: "Cormorant";
+				font-size: medium;
+				text-align: center;
+				margin: 32px 0 14px;
+			}
 		}
 		.check-compra {
 			display: flex;
 			justify-content: space-evenly;
+			@include mediaquery-mobile(){
+				display: flex;
+				justify-content: space-evenly;
+				width: auto;
+			}
 			.check-1 {
 				color: $color_8;
 			}
@@ -75,13 +129,31 @@
 			border-style: solid;
 			border-radius: 3px 3px 3px 3px;
 			margin-left: 120px;
+			@include mediaquery-mobile(){
+				margin-top: 50px;
+				width: 137px;
+				height: 52px;
+				padding: 0px 10px 0px 10px;
+				border-width: 1px;
+				border-style: solid;
+				border-radius: 3px 3px 3px 3px;
+				margin: 10px 0 0px 7px;
+			}
 		}
 	}
 	.texto-arriba {
 		margin-left: 230px;
+		@include mediaquery-mobile(){
+			margin-left: 0;
+			display: flex;
+			justify-content: center;
+		}
 		.linea-desc {
 			color: $color_6;
 			margin-left: -100px;
+			@include mediaquery-mobile(){
+				display: none;
+			}
 		}
 		.texto-descripcion {
 			width: 447px;
@@ -93,6 +165,17 @@
 			text-align: center;
 			font-size: 16px;
 			margin-left: -14px;
+			@include mediaquery-mobile(){
+				margin-left: 0;
+				width: 329px;
+				height: auto;
+				margin-bottom: 15px;
+				margin-top: auto;
+				font-size: 11px;
+				margin-left: 0;
+				border-top-style: dashed;
+				border-bottom-style: dashed;
+			}
 		}
 	}
 }

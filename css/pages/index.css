@@ -1,9 +1,10 @@
-/* Error: Undefined variable.
- *    ,
- * 16 |         font-family: $font-family_2;
- *    |                      ^^^^^^^^^^^^^^
- *    '
- *   scss\pages\index.scss 16:16  root stylesheet */
+/* Error: Undefined mixin.
+ *   ,
+ * 3 | /     @include mediaquery-mobile(){
+ * 4 | |         height: auto;
+ * 5 | \     }
+ *   '
+ *   scss\pages\index.scss 3:2  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 16 \2502          font-family: $font-family_2;\d\a    \2502                       ^^^^^^^^^^^^^^\a    \2575 \a   scss\\pages\\index.scss 16:16  root stylesheet";
+  content: "Error: Undefined mixin.\a   \2577 \a 3 \2502  \250c      @include mediaquery-mobile(){\a 4 \2502  \2502          height: auto;\a 5 \2502  \2514      }\a   \2575 \a   scss\\pages\\index.scss 3:2  root stylesheet";
 }
