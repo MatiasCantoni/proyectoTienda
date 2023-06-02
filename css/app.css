@@ -199,11 +199,11 @@ header #linksPrincipales .hombre {
 }
 @media (max-width: 500px) {
   header #linksPrincipales .hombre {
-    width: 45px;
-    height: 17px;
+    width: 62px;
+    height: 24px;
     padding: 0px;
     margin-left: 20%;
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 header #linksPrincipales .mujer {
@@ -223,10 +223,10 @@ header #linksPrincipales .mujer {
 }
 @media (max-width: 500px) {
   header #linksPrincipales .mujer {
-    width: 45px;
-    height: 17px;
+    width: 62px;
+    height: 24px;
     padding: 0px;
-    font-size: 10px;
+    font-size: 13px;
     margin-left: 2%;
     margin-right: 2%;
   }
@@ -246,10 +246,10 @@ header #linksPrincipales .ubicacion {
 }
 @media (max-width: 500px) {
   header #linksPrincipales .ubicacion {
-    width: 50px;
-    height: 17px;
+    width: 62px;
+    height: 24px;
     padding: 0px;
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 
@@ -521,7 +521,7 @@ body {
 @media (max-width: 500px) {
   #inicio #bannerPrincipal .banner-1 {
     width: 315px;
-    height: 131px;
+    height: 190px;
   }
 }
 #inicio #ofertas {
@@ -539,7 +539,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas {
-    height: 160px;
+    height: 200px;
     width: 100%;
     justify-content: space-evenly;
   }
@@ -571,10 +571,10 @@ body {
   #inicio #ofertas .texto-vertical {
     width: 38px !important;
     height: 105px !important;
-    font-size: 12px !important;
-    margin-bottom: 47%;
-    margin-right: 25px !important;
-    margin-left: 25% !important;
+    font-size: 14px !important;
+    margin-bottom: 115%;
+    margin-right: 0px !important;
+    margin-left: 0% !important;
   }
 }
 #inicio #ofertas .prenda-oferta-1 {
@@ -589,8 +589,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-1 {
-    height: 120px;
-    width: 78px;
+    height: 189px;
+    width: 100px;
   }
 }
 #inicio #ofertas .prenda-oferta-1 .descripcion-1 {
@@ -600,8 +600,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-1 .descripcion-1 {
-    font-size: 7px;
-    padding: 0 10px;
+    font-size: 11px;
+    padding: 0 6px;
     margin-top: 5px;
   }
 }
@@ -611,8 +611,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-1 .prenda-tamaño {
-    width: 78px;
-    height: 54px;
+    width: 108px;
+    height: 95px;
     margin-top: -8px;
   }
 }
@@ -623,7 +623,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-1 #precio {
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 #inicio #ofertas .prenda-oferta-1 #precio .precio-tachado {
@@ -643,7 +643,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-1 .cuotas {
-    font-size: 6px;
+    font-size: 9px;
     margin-top: -20px;
     padding: 6px 0px 0px 5px;
   }
@@ -661,8 +661,9 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-2 {
-    height: 120px;
-    width: 78px;
+    height: 189px;
+    width: 100px;
+    margin-left: 0;
   }
 }
 #inicio #ofertas .prenda-oferta-2 .descripcion-1 {
@@ -672,8 +673,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-2 .descripcion-1 {
-    font-size: 7px;
-    padding: 0 10px;
+    font-size: 11px;
+    padding: 0 6px;
     margin-top: 5px;
   }
 }
@@ -683,8 +684,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-2 .prenda-tamaño {
-    width: 78px;
-    height: 54px;
+    width: 108px;
+    height: 95px;
     margin-top: -8px;
   }
 }
@@ -695,7 +696,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-2 #precio {
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 #inicio #ofertas .prenda-oferta-2 #precio .precio-tachado {
@@ -715,7 +716,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-2 .cuotas {
-    font-size: 6px;
+    font-size: 9px;
     margin-top: -20px;
     padding: 6px 0px 0px 5px;
   }
@@ -733,8 +734,9 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-3 {
-    height: 120px;
-    width: 78px;
+    height: 189px;
+    width: 100px;
+    margin-left: 0;
   }
 }
 #inicio #ofertas .prenda-oferta-3 .descripcion-1 {
@@ -744,8 +746,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-3 .descripcion-1 {
-    font-size: 7px;
-    padding: 0 10px;
+    font-size: 11px;
+    padding: 0 6px;
     margin-top: 5px;
   }
 }
@@ -755,8 +757,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-3 .prenda-tamaño {
-    width: 78px;
-    height: 54px;
+    width: 108px;
+    height: 95px;
     margin-top: -8px;
   }
 }
@@ -767,7 +769,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-3 #precio {
-    font-size: 7px;
+    font-size: 9px;
   }
 }
 #inicio #ofertas .prenda-oferta-3 #precio .precio-tachado {
@@ -776,7 +778,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-3 #precio .precio-tachado {
-    padding: 0 10px;
+    padding: 0 11px;
   }
 }
 #inicio #ofertas .prenda-oferta-3 .cuotas {
@@ -787,7 +789,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #ofertas .prenda-oferta-3 .cuotas {
-    font-size: 6px;
+    font-size: 9px;
     margin-top: -20px;
     padding: 6px 0px 0px 5px;
   }
@@ -804,7 +806,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos {
-    height: 160px;
+    height: 240px;
     width: 100%;
     justify-content: space-evenly;
   }
@@ -821,8 +823,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-1 {
-    height: 120px;
-    width: 78px;
+    height: 189px;
+    width: 100px;
   }
 }
 #inicio #lanzamientos .prenda-lanza-1 .descripcion-1 {
@@ -832,8 +834,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-1 .descripcion-1 {
-    font-size: 7px;
-    padding: 0 10px;
+    font-size: 11px;
+    padding: 0 6px;
     margin-top: 5px;
   }
 }
@@ -843,8 +845,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-1 .prenda-tamaño {
-    width: 78px;
-    height: 54px;
+    width: 108px;
+    height: 95px;
     margin-top: -8px;
   }
 }
@@ -855,7 +857,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-1 #precio {
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 #inicio #lanzamientos .prenda-lanza-1 #precio .precio-2 {
@@ -874,7 +876,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-1 .cuotas {
-    font-size: 6px;
+    font-size: 9px;
     margin-top: -20px;
     padding: 6px 0px 0px 5px;
   }
@@ -892,8 +894,9 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-2 {
-    height: 120px;
-    width: 78px;
+    height: 189px;
+    width: 100px;
+    margin: 0 5px;
   }
 }
 #inicio #lanzamientos .prenda-lanza-2 .descripcion-1 {
@@ -903,8 +906,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-2 .descripcion-1 {
-    font-size: 7px;
-    padding: 0 10px;
+    font-size: 11px;
+    padding: 0 6px;
     margin-top: 5px;
   }
 }
@@ -914,8 +917,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-2 .prenda-tamaño {
-    width: 78px;
-    height: 54px;
+    width: 108px;
+    height: 95px;
     margin-top: -8px;
   }
 }
@@ -926,7 +929,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-2 #precio {
-    font-size: 7px;
+    font-size: 11px;
   }
 }
 #inicio #lanzamientos .prenda-lanza-2 #precio .precio-2 {
@@ -945,7 +948,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-2 .cuotas {
-    font-size: 6px;
+    font-size: 9px;
     margin-top: -20px;
     padding: 6px 0px 0px 5px;
   }
@@ -963,8 +966,9 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-3 {
-    height: 120px;
-    width: 78px;
+    height: 189px;
+    width: 100px;
+    margin-left: 0;
   }
 }
 #inicio #lanzamientos .prenda-lanza-3 .descripcion-1 {
@@ -974,8 +978,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-3 .descripcion-1 {
-    font-size: 7px;
-    padding: 0 10px;
+    font-size: 11px;
+    padding: 0 6px;
     margin-top: 5px;
   }
 }
@@ -985,8 +989,8 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-3 .prenda-tamaño {
-    width: 78px;
-    height: 54px;
+    width: 108px;
+    height: 95px;
     margin-top: -8px;
   }
 }
@@ -997,7 +1001,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-3 #precio {
-    font-size: 7px;
+    font-size: 11px;
   }
 }
 #inicio #lanzamientos .prenda-lanza-3 #precio .precio-2 {
@@ -1016,7 +1020,7 @@ body {
 }
 @media (max-width: 500px) {
   #inicio #lanzamientos .prenda-lanza-3 .cuotas {
-    font-size: 6px;
+    font-size: 9px;
     margin-top: -20px;
     padding: 6px 0px 0px 5px;
   }
@@ -1040,8 +1044,8 @@ body {
     opacity: 100%;
     font-size: small !important;
     margin-right: 0 !important;
-    margin-left: -20px !important;
-    padding-top: 120px !important;
+    margin-left: -54px !important;
+    padding-top: 202px !important;
   }
 }
 #inicio #lanzamientos .foto-inicio-2 {
@@ -1080,7 +1084,7 @@ body {
 @media (max-width: 500px) {
   #inicio #bannerSecundario .banner-2 {
     width: 315px;
-    height: 131px;
+    height: 180px;
   }
 }
 
