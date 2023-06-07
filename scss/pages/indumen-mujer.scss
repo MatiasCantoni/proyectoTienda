@@ -9,7 +9,7 @@
 		@include mediaquery-mobile(){
 			padding: 0;
 			margin-left: 8%;
-			font-size: 10px;
+			font-size: 20px;
 		}
     }
 	.col-4{
@@ -22,8 +22,8 @@
 				width: 300px;
 				height: 320px;
 				@include mediaquery-mobile(){
-					width: 90px;
-					height: 96px;
+					width: 99px;
+					height: 160px;
 					margin-left: -30px;
 				}
 				.titulo-filtros {
@@ -33,9 +33,9 @@
 					padding-top: 10px;
 					font-family: $font-family_2;
 					@include mediaquery-mobile(){
-						margin-bottom: 0px;
+						margin-bottom: 11px;
 						padding-top: 10px;
-						font-size: 10px;
+						font-size: 16px;
 					}
 				}
 				.check {
@@ -44,9 +44,9 @@
 					padding-bottom: 15px;
 					@include mediaquery-mobile(){
 						display: flex;
-						padding-left: 15px;
-						padding-bottom: 0px;
-						font-size: 8px;
+						padding-left: 8px;
+						padding-bottom: 8px;
+						font-size: 13px;
 					}
 				}
 				.ad-indumentaria {
@@ -55,9 +55,9 @@
 					margin-top: 150px;
 					margin-left: 0px;
 					@include mediaquery-mobile(){
-						width: 89px;
-						height: 158px;
-						margin-top: 15px;
+						width: 99px;
+						height: 210px;
+						margin-top: 30px;
 						margin-left: 0px;
 					}
 				}
@@ -79,7 +79,7 @@
 			margin-bottom: 10px;
 			@include mediaquery-mobile(){
 				width: auto;
-				height: 550px;
+				height: auto;
 				padding-top: 5px;
 			}
 			.prenda-indu-1 {
@@ -94,15 +94,15 @@
 				@include mediaquery-mobile(){
 					margin-right: 0;
 					margin-bottom: 5px;
-					height: 105px;
-					width: 92px;
+					height: 205px;
+					width: 150px;
 				}
 				.descripcion-2 {
 					font-size: 18px;
 					padding: 0 18px;
 					font-weight: bold;
 					@include mediaquery-mobile(){
-						font-size: 7px;
+						font-size: 13px;
 						padding: 0 10px;
 						margin-top: 5px;
 					}
@@ -116,8 +116,8 @@
 					width: 257px;
 					height: 159px;
 					@include mediaquery-mobile(){
-						width: 78px;
-						height: 54px;
+						width: 150px;
+						height: 92px;
 						margin-top: -8px;
 					}
 				}
@@ -126,12 +126,12 @@
 					font-family: $font-family_1;
 					font-size: 16px;
 					@include mediaquery-mobile(){
-						font-size: 7px;
+						font-size: 14px;
 					}
 					.precio-2 {
 						padding: 0 18px;
 						@include mediaquery-mobile(){
-							padding: 0 15px 0 15px;
+							padding: 13px 31px 0 15px;
 						}
 					}
 					.boton-comprar {
@@ -142,14 +142,16 @@
 						font-family: $font-family_1;
 						@include mediaquery-mobile(){
 							margin-left: 0px;
-							height: 15px;
-							margin-top: 0px; 
+							height: 23px;
+							margin-top: 11px; 
+							font-size: smaller;
 						}
 					}
                     .decoracion {
                         margin-left: 38px !important;
 						@include mediaquery-mobile(){
 							margin-left: 2px !important;
+							margin-top: 0;
 						}
                     }
 				}
@@ -159,9 +161,9 @@
 					margin-top: -10px;
 					padding: 0 18px;
 					@include mediaquery-mobile(){
-						font-size: 6px;
-						margin-top: -10px !important;
-						padding: 0 3px;
+						font-size: 10px;
+						margin-top: -18px !important;
+						padding: 0 5px 0 5px;
 					}
 				}
 			}
