@@ -48,6 +48,9 @@ header{
                 margin-right: 0;
                 margin-left: 20%;
             }
+            @include mediaquery-desktop(){
+				width: 300px;
+			}
         }
     }
     #linksPrincipales {
@@ -57,6 +60,9 @@ header{
         font-family: $font-family_2;
         text-decoration: none;
         @include mediaquery-mobile(){
+            justify-content: center;
+        }
+        @include mediaquery-desktop(){
             justify-content: center;
         }
         .hombre {
@@ -79,6 +85,9 @@ header{
                 margin-left: 20%;
                 font-size: 13px;
             }
+            @include mediaquery-desktop(){
+                margin-left: 0;
+			}
         }
         .mujer {
             width: 156px;

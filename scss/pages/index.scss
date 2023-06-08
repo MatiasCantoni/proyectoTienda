@@ -37,6 +37,9 @@
 			width: 100%;
 			justify-content: space-evenly;
 		}
+		@include mediaquery-desktop(){
+			justify-content:center;	
+		}
 		.foto-inicio {
 			width: 280px;
 			height: 359px;
@@ -46,6 +49,10 @@
 			@include mediaquery-mobile(){
 				display: none;
 				padding: 0 0;
+			}
+			@include mediaquery-desktop(){
+				display: none;
+				padding: 0;
 			}
 		}
 		.texto-vertical {
@@ -263,6 +270,9 @@
 			width: 100%;
 			justify-content: space-evenly;
 		}
+		@include mediaquery-desktop(){
+			justify-content: center;
+		}
 		.prenda-lanza-1 {
 			list-style-type: none;
 			background-color: $background-color_6;
@@ -461,6 +471,9 @@
 				margin-left: -54px !important;
 				padding-top: 202px !important;
 			}
+			@include mediaquery-desktop(){
+				margin-right: 0;
+			}
 		}
 		.foto-inicio-2 {
 			width: 280px;
@@ -470,6 +483,9 @@
 			display: flex;
 			@include mediaquery-mobile(){
 				display: none;
+			}
+			@include mediaquery-desktop(){
+				display: none;	
 			}
 		}
 	}

@@ -82,6 +82,10 @@
 				height: auto;
 				padding-top: 5px;
 			}
+			@include mediaquery-desktop(){
+				width: auto;
+				height: auto;
+			}
 			.prenda-indu-1 {
 				list-style-type: none;
 				background-color: $background-color_8;
@@ -96,6 +100,9 @@
 					margin-bottom: 5px;
 					height: 205px;
 					width: 150px;
+				}
+				@include mediaquery-desktop(){
+					margin-bottom: 5px;
 				}
 				.descripcion-2 {
 					font-size: 18px;

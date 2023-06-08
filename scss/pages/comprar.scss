@@ -14,7 +14,7 @@
 			background-color: $background-color_8;
 			@include mediaquery-mobile(){
 				width: 189px;
-				height: 230px;
+				height: 242px;
 				display: flex;
 				justify-content: center;
 			}
@@ -22,7 +22,7 @@
 				height: 380px;
 				width: 555px;
 				@include mediaquery-mobile(){
-					height: 216px;
+					height: 237px;
 					width: 349px;
 				}
 			}
@@ -76,7 +76,7 @@
 				color: #ffffff;
 				font-family: "carme";
 				font-weight: lighter;
-				font-size: 8px;
+				font-size: 9px;
 				margin: 5px;
 			}
 		}
@@ -171,7 +171,7 @@
 				height: auto;
 				margin-bottom: 15px;
 				margin-top: auto;
-				font-size: 11px;
+				font-size: 12px;
 				margin-left: 0;
 				border-top-style: dashed;
 				border-bottom-style: dashed;
